@@ -1,0 +1,54 @@
+﻿---
+ID: "620f7051-9087-428f-96f4-e56d3056d3b4"
+Parent: "73c59589-2bc6-4200-a631-7bac9d33ae64"
+Template: "94a8c8e9-690b-4e65-98e7-f95800222767"
+Path: /sitecore/content/Habitat/NewHome/Services/Customer Service
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{3CDF4DD8-28A4-4185-8C09-A73CAA4633F7}"
+          s:ds="{B6D52FD0-0AE1-413B-BFF5-339311DF0584}"
+          s:par="" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Customer Service
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170316T101157Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{E8D58E9F-5E2E-437F-93EF-A3BDCA304B0E}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "The fastest way to resolve your queries! Know more about your SmartLife Appliances from us."
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Customer Service
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: "Services - SmartLife"
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p><strong>Customer Service network:</strong></p>
+        <p>When you buy any SmartLife commercial appliance you can relax, confident in the fact that you've purchased a high specification product from one of USA's most respected manufacturers. Our hard earned reputation for innovation, quality and reliability is fully backed up by a nationwide service division here in USA. We think the quality of our Service Network is just as important as the quality of our products, as nobody knows your Commercial appliance better than the people who make them.</p>

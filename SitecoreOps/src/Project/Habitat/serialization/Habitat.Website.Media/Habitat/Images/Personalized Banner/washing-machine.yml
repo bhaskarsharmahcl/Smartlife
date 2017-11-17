@@ -1,0 +1,14 @@
+﻿---
+ID: "50526756-cdab-496b-ae4f-68a47f04b87d"
+Parent: "3d401576-e4a1-44b8-a579-2b5c7d649b25"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: "/sitecore/media library/Habitat/Images/Personalized Banner/washing-machine"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170416T082043Z

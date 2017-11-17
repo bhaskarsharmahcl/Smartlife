@@ -1,0 +1,63 @@
+﻿---
+ID: "a9076a50-4523-4c0e-8b3d-8a2797265fff"
+Parent: "73c59589-2bc6-4200-a631-7bac9d33ae64"
+Template: "94a8c8e9-690b-4e65-98e7-f95800222767"
+Path: "/sitecore/content/Habitat/NewHome/Services/SmartLife Trade-In Program"
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{3CDF4DD8-28A4-4185-8C09-A73CAA4633F7}"
+          s:ds="{54596484-F71A-42B6-958F-47A641BEC371}"
+          s:par="" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: "SmartLife Trade-In Program"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170316T101157Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{946E8EBF-CBC1-4ECE-B435-484E28590DF1}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "Try Trade-In Program to recycle your old appliances."
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: "SmartLife Trade-In Program"
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: "Services - SmartLife"
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <h2><span>Get cash for your old appliance</span></h2>
+        <p><span style="color: #444444;">With trade-in we&rsquo;ll give you money for your old appliance when you replace it with one of our brand new models. We&rsquo;ll pick up your old appliance for free, saving you the hassle of taking it to the recycling centre.</span></p>
+        <h2><span><section class="howItWorks">Here's how it works</section></span></h2>
+        <p><span style="color: #444444;"><img alt="" width="138" height="168" src="-/media/4CDDA8A3C6F94A4EA51244629D5DA744.ashx" /></span></p>
+        <p><span style="color: #444444;">You can find out which products are available on trade-in below. We&rsquo;ll also clearly label these products throughout the site.</span></p>
+        <p><span style="color: #444444;"><img alt="" width="138" height="168" src="-/media/A8A5973DC38D4E0A8F9C3C0A8835D062.ashx" /></span></p>
+        <p><span style="color: #444444;">Simply add a product available on trade-in to your basket. When you&rsquo;re ready to check out, tick the trade-in box in your basket.</span></p>
+        <p><span style="color: #444444;"><img alt="" width="138" height="168" src="-/media/9D36B562733248E0ACCB6C05B9234749.ashx" /></span></p>
+        <p><span style="color: #444444;">We&rsquo;ll collect your old appliance when we deliver your new one. Just make sure it&rsquo;s empty, unplugged and disconnected.</span></p>
+        <p><span style="color: #444444;"><img alt="" width="138" height="168" src="-/media/1014E70852F948139D81E4E2DD033F76.ashx" /></span></p>
+        <p><span style="color: #444444;">We&rsquo;ll put the money into your bank account within 21 days of delivery.</span></p>

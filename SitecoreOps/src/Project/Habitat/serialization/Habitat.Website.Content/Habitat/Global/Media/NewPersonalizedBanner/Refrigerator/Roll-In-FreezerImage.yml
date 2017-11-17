@@ -1,0 +1,22 @@
+﻿---
+ID: "61fc9bf2-3b14-49b4-ade2-c888ea10ac30"
+Parent: "108fc3df-74f5-40ea-ad17-87aff9cd7fca"
+Template: "c18d3794-d126-4548-bfc8-89358de6e9c1"
+Path: "/sitecore/content/Habitat/Global/Media/NewPersonalizedBanner/Refrigerator/Roll-In-FreezerImage"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170416T083713Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "72ea8682-24d2-4beb-951c-3e2164974105"
+      Hint: MediaSelector
+      Type: Multilist
+      Value: "{6A6918AC-A325-4373-A759-4A14D3AC1846}"

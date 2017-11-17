@@ -1,0 +1,405 @@
+﻿---
+ID: "bc6bef10-717a-4a22-91f5-fbc5ea1a0c33"
+Parent: "7947d371-57b7-4a3d-9fb1-6e537ea79a0d"
+Template: "c5b8584b-a263-4169-aea1-2ff6a1cff371"
+Path: /sitecore/content/Habitat/NewHome/Products/Air Conditioner/AirCoolChill
+DB: master
+SharedFields:
+- ID: "0be11d55-96e6-408a-be0e-83836db67232"
+  Hint: "Product-Image"
+  Value: |
+    <image mediaid="{E02AA2BC-9ADC-471E-AC9F-DA1CC885651F}" />
+- ID: "4b517cb2-ab6e-4512-bec3-943778e02bb2"
+  Hint: "Product-Large-Image"
+  Value: |
+    <image mediaid="{E02AA2BC-9ADC-471E-AC9F-DA1CC885651F}" />
+- ID: "77c15b3e-ba56-4719-843d-c0bbae6cc215"
+  Hint: Rating
+  Value: |
+    <img alt="" height="19" width="84" src="-/media/44CBC6716BEA47C8AB06F9031CC1E503.ashx" />
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{F6A127BF-798B-4D69-BF2E-4101FE129EA9}"
+        name="NewSmartAppliancesProfile"
+        presets="aircooledchillerprofilecard-persona|100||">
+        <key
+          name="AirCooledChillerProfileKey"
+          value="1" />
+        <key
+          name="RoofTopProfileKey"
+          value="0" />
+        <key
+          name="WaterCooledChillerProfileKey"
+          value="0" />
+        <key
+          name="DefreezerProfileKey"
+          value="0" />
+        <key
+          name="Roll-In-FreezerProfileKey"
+          value="0" />
+        <key
+          name="undercounterProfileKey"
+          value="0" />
+        <key
+          name="OnPremisesDryerProfileKey"
+          value="0" />
+        <key
+          name="OnPremisesWasherProfileKey"
+          value="0" />
+        <key
+          name="WasherExtractorProfileKey"
+          value="0" />
+      </profile>
+      <profile
+        id="{897E0D6D-31D0-4DA2-8684-27ACD96A7330}"
+        name="Smartlifeappliances-Category-Profile"
+        presets="ac-profilecard-persona|100||">
+        <key
+          name="AC"
+          value="1" />
+        <key
+          name="Referigerator"
+          value="0" />
+        <key
+          name="WashingMachine"
+          value="0" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d4a62ee-bf47-4fbe-b35a-55631cced460"
+      Hint: Features
+      Value: |
+        <h3 style="margin: 10px 0px; padding: 0px; color: #000000; letter-spacing: normal; background-color: #ffffff;">Performance Features</h3>
+        <ul style="margin: 0px; padding: 0px; color: #333333; letter-spacing: normal; background-color: #ffffff;">
+            <li style="margin: 0px 0px 1px 16px; padding: 0px 0px 5px; color: #333333;">Full-load EER values up to 10.5 and IPLV values up to 15.8</li>
+            <li style="margin: 0px 0px 1px 16px; padding: 0px 0px 5px; color: #333333;">Greenspeed Intelligence option for sizes 011-060 can raise IPLV up to 16.8 and sound reduction up to 4dBA<span class="Apple-converted-space">&nbsp;</span><br style="margin: 0px; padding: 0px;" />
+            </li>
+            <li style="margin: 0px 0px 1px 16px; padding: 0px 0px 5px; color: #333333;">ASHRAE 90.1 compliant / AHRI 550/590 certified</li>
+            <li style="margin: 0px 0px 1px 16px; padding: 0px 0px 5px; color: #333333;">High-efficiency rotary scroll compressors including digital compressor unloading (factory-installed option for 010-090 units)</li>
+            <li style="margin: 0px 0px 1px 16px; padding: 0px 0px 5px; color: #333333;">Standard uncoated or optional e-coated Novation&reg; microchannel heat exchanger (MCHX) condenser coils (factory-installed option)</li>
+            <li style="margin: 0px 0px 1px 16px; padding: 0px 0px 5px; color: #333333;">Hydronic pump package (factory-installed option) with optional VFD on sizes 070-150</li>
+            <li style="margin: 0px 0px 1px 16px; padding: 0px 0px 5px; color: #333333;">Operation from -20 to 120 F ambient temperature (factory-installed option or field-installed accessory on sizes 018-150 with low ambient head pressure control)</li>
+        </ul>
+        <h3 style="margin: 10px 0px; padding: 0px; color: #000000; letter-spacing: normal; background-color: #ffffff;">Reliability Features</h3>
+        <ul style="margin: 0px; padding: 0px; color: #333333; letter-spacing: normal; background-color: #ffffff;">
+            <li style="margin: 0px 0px 1px 16px; padding: 0px 0px 5px; color: #333333;">ETL (and ETL, Canada) listed</li>
+            <li style="margin: 0px 0px 1px 16px; padding: 0px 0px 5px; color: #333333;">Galvanized steel cabinet with baked enamel powder or pre-painted finish on exterior panels passes 500-hour salt-spray test in accordance with the ASTM B-117 Standard</li>
+            <li style="margin: 0px 0px 1px 16px; padding: 0px 0px 5px; color: #333333;">High and low-pressure protection/compressor overload protection</li>
+            <li style="margin: 0px 0px 1px 16px; padding: 0px 0px 5px; color: #333333;">Self-contained 24-v CCN (Carrier Comfort Network&trade;) controls including transformer</li>
+            <li style="margin: 0px 0px 1px 16px; padding: 0px 0px 5px; color: #333333;">Hermetic scroll compressors and outdoor fan circuits are protected by circuit breakers or fuses</li>
+            <li style="margin: 0px 0px 1px 16px; padding: 0px 0px 5px; color: #333333;">EXV (electronic expansion valve)</li>
+        </ul>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: SmartLife AirCoolChill
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170316T095715Z
+    - ID: "398aaabe-2e1a-4e7c-a4a6-0f7afc544d93"
+      Hint: Description
+      Value: |
+        SmartLife air-cooled chillers with the integrated free cooling option can help building owners to even further reduce their energy use, environmental impact and operating expenses.The SmartLife Air cooled chillers offer a combination of high efficiency, low sound levels and compact size.
+        Constructed for operation across a wide operating map, the SmartLife chillers are capable of starting and operating with outside air temperatures from -20&deg;F to 125&deg;F. They install easily and quickly on the roof or ground for comfort or process cooling applications.  Perfect for supporting industrial or ice rink applications, they can also deliver &lt;10&deg;F chilled water solution.
+    - ID: "40d24aa7-4aaf-48c1-86bb-b0f00c3dc525"
+      Hint: Discounted Price
+      Value: $450.00
+    - ID: "71d65caf-388f-4a54-b386-5c0cafc6cde1"
+      Hint: Shipping
+      Value: Free Shipping
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{1B9FA43A-57BC-4544-BD45-0E42DAB5055D}" />
+    - ID: "9d615e6c-6493-4a5a-9f15-27adf03ea198"
+      Hint: Price
+      Value: $479.00
+    - ID: "a7a9e7db-2d07-4600-ba59-19b75984d982"
+      Hint: Specification
+      Value: |
+        <h3 style="margin: 10px 0px; padding: 0px; color: #000000; letter-spacing: normal; background-color: #ffffff;">AirCoolChill* Capacity Ratings</h3>
+        <div class="table-responsive" id="specifications" style="margin: 0px; padding: 0px; color: #333333; letter-spacing: normal; background-color: #ffffff;">
+        <table class="table table-striped table-condensed" style="margin: 0px 0px 20px; padding: 0px; border: 1px solid #dddddd; border-image: none; width: 502px; border-spacing: 0px; background-color: transparent;" border="0" cellspacing="0" cellpadding="0">
+            <thead style="margin: 0px; padding: 0px;">
+                <tr class="headings odd" style="margin: 0px; padding: 0px; width: 501px;">
+                    <th class="first" style="margin: 0px; padding: 5px; text-align: left; border-right-color: #cccccc; border-bottom-color: #dddddd; border-right-width: 1px; border-bottom-width: 2px; border-top-style: none; border-right-style: dotted; border-bottom-style: solid;" rowspan="2">Size</th>
+                    <th style="margin: 0px; padding: 5px; text-align: left; border-right-color: #cccccc; border-bottom-color: #dddddd; border-right-width: 1px; border-bottom-width: 2px; border-top-style: none; border-right-style: dotted; border-bottom-style: solid;" colspan="2">Capacity</th>
+                    <th style="margin: 0px; padding: 5px; text-align: left; border-right-color: #cccccc; border-bottom-color: #dddddd; border-right-width: 1px; border-bottom-width: 2px; border-top-style: none; border-right-style: dotted; border-bottom-style: solid;" rowspan="2">Compressor<br style="margin: 0px; padding: 0px;" />
+                    Power<br style="margin: 0px; padding: 0px;" />
+                    Input (kW)</th>
+                    <th style="margin: 0px; padding: 5px; text-align: left; border-right-color: #cccccc; border-bottom-color: #dddddd; border-right-width: 1px; border-bottom-width: 2px; border-top-style: none; border-right-style: dotted; border-bottom-style: solid;" rowspan="2">Fan<br style="margin: 0px; padding: 0px;" />
+                    Power (kW)</th>
+                    <th style="margin: 0px; padding: 5px; text-align: left; border-right-color: #cccccc; border-bottom-color: #dddddd; border-right-width: 1px; border-bottom-width: 2px; border-top-style: none; border-right-style: dotted; border-bottom-style: solid;" rowspan="2">Total<br style="margin: 0px; padding: 0px;" />
+                    Power (kW)</th>
+                    <th style="margin: 0px; padding: 5px; text-align: left; border-right-color: #cccccc; border-bottom-color: #dddddd; border-right-width: 1px; border-bottom-width: 2px; border-top-style: none; border-right-style: dotted; border-bottom-style: solid;" colspan="2">Full Load</th>
+                    <th style="margin: 0px; padding: 5px; text-align: left; border-right-color: #cccccc; border-bottom-color: #dddddd; border-right-width: 1px; border-bottom-width: 2px; border-top-style: none; border-right-style: dotted; border-bottom-style: solid;" colspan="2">IPLV</th>
+                </tr>
+                <tr style="margin: 0px; padding: 0px; width: 501px;">
+                    <th style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-bottom-color: #dddddd; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 2px; border-top-style: solid; border-right-style: dotted; border-bottom-style: solid;">Tons</th>
+                    <th style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-bottom-color: #dddddd; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 2px; border-top-style: solid; border-right-style: dotted; border-bottom-style: solid;">kW</th>
+                    <th style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-bottom-color: #dddddd; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 2px; border-top-style: solid; border-right-style: dotted; border-bottom-style: solid;">EER</th>
+                    <th style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-bottom-color: #dddddd; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 2px; border-top-style: solid; border-right-style: dotted; border-bottom-style: solid;">COP</th>
+                    <th style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-bottom-color: #dddddd; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 2px; border-top-style: solid; border-right-style: dotted; border-bottom-style: solid;">EER</th>
+                    <th style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-bottom-color: #dddddd; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 2px; border-top-style: solid; border-right-style: dotted; border-bottom-style: solid;">COP</th>
+                </tr>
+            </thead>
+            <tbody style="margin: 0px; padding: 0px;">
+                <tr class="odd" style="margin: 0px; padding: 0px; width: 501px;">
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">010</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">10.5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">36.8</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">10.7</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">1.2</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">12.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">10.5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">3.1</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">14.2</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">4.2</td>
+                </tr>
+                <tr style="margin: 0px; padding: 0px; width: 501px;">
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">015</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">14.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">49.2</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">15.6</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">1.3</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">16.8</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">10.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">2.9</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">13.2</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">3.9</td>
+                </tr>
+                <tr class="odd" style="margin: 0px; padding: 0px; width: 501px;">
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">018</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">16.1</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">56.6</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">15.6</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">3.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">8.6</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">10.4</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">3.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">14.5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">4.2</td>
+                </tr>
+                <tr style="margin: 0px; padding: 0px; width: 501px;">
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">020</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">18.8</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">66.1</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">19.1</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">2.9</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">21.9</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">10.3</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">3.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">14.5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">4.2</td>
+                </tr>
+                <tr class="odd" style="margin: 0px; padding: 0px; width: 501px;">
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">025</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">23.4</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">82.3</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">24.5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">2.8</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">27.4</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">10.3</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">3.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">15.3</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">4.5</td>
+                </tr>
+                <tr style="margin: 0px; padding: 0px; width: 501px;">
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">030</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">27.6</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">97.1</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">30.9</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">2.7</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">33.6</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">9.9</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">2.9</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">14.8</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">4.3</td>
+                </tr>
+                <tr class="odd" style="margin: 0px; padding: 0px; width: 501px;">
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">035</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">34.4</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">121.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">35.9</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">3.8</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">39.7</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">10.4</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">3.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">14.9</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">4.4</td>
+                </tr>
+                <tr style="margin: 0px; padding: 0px; width: 501px;">
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">040</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">38.9</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">136.8</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">42.3</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">3.8</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">46.1</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">10.1</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">3.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">15.3</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">4.5</td>
+                </tr>
+                <tr class="odd" style="margin: 0px; padding: 0px; width: 501px;">
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">050</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">47.3</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">166.3</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">53.1</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">3.8</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">57.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">10.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">2.9</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">14.7</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">4.3</td>
+                </tr>
+                <tr style="margin: 0px; padding: 0px; width: 501px;">
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">055</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">51.8</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">182.2</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">56.4</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">5.3</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">61.7</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">10.1</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">3.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">14.6</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">4.3</td>
+                </tr>
+                <tr class="odd" style="margin: 0px; padding: 0px; width: 501px;">
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">060</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">56.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">196.9</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">60.8</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">5.3</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">66.2</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">10.2</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">3.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">14.5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">4.2</td>
+                </tr>
+                <tr style="margin: 0px; padding: 0px; width: 501px;">
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">070</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">68.9</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">242.3</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">75.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">6.4</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">81.4</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">10.2</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">3.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">15.2</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">4.5</td>
+                </tr>
+                <tr class="odd" style="margin: 0px; padding: 0px; width: 501px;">
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">080</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">77.4</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">272.2</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">82.3</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">7.6</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">89.9</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">10.3</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">3.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">15.5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">4.5</td>
+                </tr>
+                <tr style="margin: 0px; padding: 0px; width: 501px;">
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">090</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">84.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">295.4</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">90.2</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">7.6</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">97.8</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">10.3</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">3.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">15.8</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">4.6</td>
+                </tr>
+                <tr class="odd" style="margin: 0px; padding: 0px; width: 501px;">
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">100</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">98.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">344.7</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">106.8</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">8.9</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">115.7</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">10.2</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">3.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">15.5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">4.5</td>
+                </tr>
+                <tr style="margin: 0px; padding: 0px; width: 501px;">
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">115</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">111.8</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">392.2</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">120.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">10.2</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">130.2</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">10.3</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">3.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">15.6</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">4.6</td>
+                </tr>
+                <tr class="odd" style="margin: 0px; padding: 0px; width: 501px;">
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">130</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">125.1</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">440.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">136.8</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">11.4</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">148.2</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">10.1</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">3.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">15.5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">4.5</td>
+                </tr>
+                <tr style="margin: 0px; padding: 0px; width: 501px;">
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">150</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">136.9</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">481.5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">149.3</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">12.7</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">162.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">10.1</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">3.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">15.2</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted;">4.5</td>
+                </tr>
+                <tr class="odd" style="margin: 0px; padding: 0px; width: 501px;">
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">080</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">77.4</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">272.2</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">82.3</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">7.6</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">89.9</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">10.3</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">3.0</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">15.5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: left; border-top-color: #dddddd; border-right-color: #cccccc; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: dotted; background-color: #f9f9f9;">4.5</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: Forged under harsh conditions around the world, SmartLife air cooled chillers provide high quality
+    - ID: "c236fb11-ab2f-42a7-92a7-09a9258e2637"
+      Hint: Product Title
+      Value: "AIR-COOLED LIQUID CHILLER WITH R34 REFRIGERANT"
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: SmartLife AirCoolChill
+    - ID: "de1430c5-291b-40c2-ad2d-709efbb7360a"
+      Hint: Short Description
+      Value: "SmartLIfe&nbsp;air-cooled chillers deliver the highest combination of part-load and full-load efficiencies and the lowest published sound levels. No other air-cooled chiller can match this kind of efficiency or sound performance."
+    - ID: "fdc46723-8fd1-44c0-9938-c7bc00a81768"
+      Hint: Reviews
+      Value: |
+        <div class="review-clip" style="color: #4e4e4e; background-color: #ffffff;"><span><strong>James Horner</strong></span>&nbsp;<span>on 20/01/2017 (14:50hrs)</span>
+        <p style="margin-bottom: 10px;">I bought two of these units one worked and the other is junk. Customer service will send you parts under warranty BUT you pay shipping and labor to install the parts. The unit was broken out of the box. I tried to get a new unit and they don't want to trade me they only want to send parts...&nbsp;<span><a href="http://sitecorehabitat/Products/Product-2#" style="background: none; color: #c52d2f; text-decoration: none;">&raquo;</a></span></p>
+        </div>
+        <div class="review-clip" style="color: #4e4e4e; background-color: #ffffff;"><strong>Glenn Waterworth</strong>&nbsp;<span>on 15/11/2016 (12:30hrs)</span>
+        <p style="margin-bottom: 10px;">So quiet. Could not even tell it was running. The outside unit makes no noise whatsoever while running. Suction line was wrong size, but an adapter fixed that problem. I didn't not reduce the star rating because just the fact it came with a line set, wrong size or not, was worth 5 stars. ...&nbsp;<span><a href="http://sitecorehabitat/Products/Product-2#" style="background: none; color: #c52d2f; text-decoration: none;">&raquo;</a></span></p>
+        </div>

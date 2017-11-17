@@ -1,0 +1,22 @@
+﻿---
+ID: "94ef8fba-8042-4ae5-9a91-3fe6c6ce128e"
+Parent: "108fc3df-74f5-40ea-ad17-87aff9cd7fca"
+Template: "c18d3794-d126-4548-bfc8-89358de6e9c1"
+Path: /sitecore/content/Habitat/Global/Media/NewPersonalizedBanner/Refrigerator/DefreezerImage
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170416T083700Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "72ea8682-24d2-4beb-951c-3e2164974105"
+      Hint: MediaSelector
+      Type: Multilist
+      Value: "{787B4B70-D5A5-46F3-BAD9-FB7F73D6B6EF}"

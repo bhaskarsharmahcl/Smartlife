@@ -1,0 +1,173 @@
+﻿---
+ID: "d7a303d7-ac53-4857-bd03-0b8cbb042a2f"
+Parent: "6383defc-59f2-4f91-9ee5-f466481b1194"
+Template: "c5b8584b-a263-4169-aea1-2ff6a1cff371"
+Path: /sitecore/content/Habitat/NewHome/Products/Refrigerator/ReachIn Freezer
+DB: master
+SharedFields:
+- ID: "0be11d55-96e6-408a-be0e-83836db67232"
+  Hint: "Product-Image"
+  Value: |
+    <image mediaid="{049D9420-43CB-4189-A004-FFC0D8DD1099}" />
+- ID: "4b517cb2-ab6e-4512-bec3-943778e02bb2"
+  Hint: "Product-Large-Image"
+  Value: |
+    <image mediaid="{049D9420-43CB-4189-A004-FFC0D8DD1099}" />
+- ID: "77c15b3e-ba56-4719-843d-c0bbae6cc215"
+  Hint: Rating
+  Value: |
+    <img alt="" height="19" width="84" src="-/media/44CBC6716BEA47C8AB06F9031CC1E503.ashx" /><img alt="" /><img alt="" /><img alt="" /><img alt="" /><img alt="" />
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{F6A127BF-798B-4D69-BF2E-4101FE129EA9}"
+        name="NewSmartAppliancesProfile"
+        presets="defreezerprofilekeyprofilecard-persona|100||">
+        <key
+          name="AirCooledChillerProfileKey"
+          value="0" />
+        <key
+          name="RoofTopProfileKey"
+          value="0" />
+        <key
+          name="WaterCooledChillerProfileKey"
+          value="0" />
+        <key
+          name="DefreezerProfileKey"
+          value="1" />
+        <key
+          name="Roll-In-FreezerProfileKey"
+          value="0" />
+        <key
+          name="undercounterProfileKey"
+          value="0" />
+        <key
+          name="OnPremisesDryerProfileKey"
+          value="0" />
+        <key
+          name="OnPremisesWasherProfileKey"
+          value="0" />
+        <key
+          name="WasherExtractorProfileKey"
+          value="0" />
+      </profile>
+      <profile
+        id="{897E0D6D-31D0-4DA2-8684-27ACD96A7330}"
+        name="Smartlifeappliances-Category-Profile"
+        presets="referigerator-profilecard-persona|100||">
+        <key
+          name="AC"
+          value="0" />
+        <key
+          name="Referigerator"
+          value="1" />
+        <key
+          name="WashingMachine"
+          value="0" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d4a62ee-bf47-4fbe-b35a-55631cced460"
+      Hint: Features
+      Value: |
+        <ul class="a-unordered-list a-vertical a-spacing-none" style="color: #949494; background-color: #ffffff; margin-right: 0px; margin-bottom: 0px; margin-left: 18px; padding: 0px;">
+            <li style="margin: 0px; list-style-type: none;"><strong></strong>
+            <h4 style="color: #303030; background-color: #ffffff; margin: 0px; padding: 0px;">Features</h4>
+            </li>
+            <li style="margin: 0px; list-style-type: none;"><strong>&nbsp;</strong></li>
+            <li style="margin: 0px; list-style-type: disc; list-style-image: initial;"><span class="a-list-item" style="color: #111111;">Up To 100 Hours Cooling Retention After Power Failure</span></li>
+            <li style="margin: 0px; list-style-type: disc; list-style-image: initial;"><span class="a-list-item" style="color: #111111;">Innovation Products Design Leads The Super Cooling And Freezing Capacity</span></li>
+            <li style="margin: 0px; list-style-type: disc; list-style-image: initial;"><span class="a-list-item" style="color: #111111;">Curved Glass Top Freezer</span></li>
+            <li style="margin: 0px; list-style-type: disc; list-style-image: initial;"><span class="a-list-item" style="color: #111111;">Cellular Foaming Technology</span></li>
+            <li style="margin: 0px; list-style-type: disc; list-style-image: initial;"><span class="a-list-item" style="color: #111111;">Tropicalized Compressor</span></li>
+        </ul>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Quick Dfreeze
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170316T090701Z
+    - ID: "398aaabe-2e1a-4e7c-a4a6-0f7afc544d93"
+      Hint: Description
+      Value: |
+        <p><span style="background-color: #ffffff; color: #333333;">SmartLife ReachIn Freezer Special Design To Save The Power Using Super Cooling Retention Up To 100 Hours Cooling Retention After Power Failure Super Cooling Capacity Innovation Products Design Leads The Super Cooling And Freezing Capacity.</span></p>
+        <p><span style="background-color: #ffffff; color: #333333;">It features an easy-access adjustable temperature control, space-saving flat-back design and durable aluminum interior</span></p>
+    - ID: "40d24aa7-4aaf-48c1-86bb-b0f00c3dc525"
+      Hint: Discounted Price
+      Value: $12,500.00
+    - ID: "527bcbf8-a38c-4393-8d9d-88189d0c84eb"
+      Hint: Product Sub Title
+      Value: 
+    - ID: "71d65caf-388f-4a54-b386-5c0cafc6cde1"
+      Hint: Shipping
+      Value: Free Shipping
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{71C4359F-BF57-4B9B-ADB4-4489752243A4}"></image>
+    - ID: "9d615e6c-6493-4a5a-9f15-27adf03ea198"
+      Hint: Price
+      Value: $13,968.77
+    - ID: "a7a9e7db-2d07-4600-ba59-19b75984d982"
+      Hint: Specification
+      Value: |
+        <h2 style="color: #222222; background-color: #ffffff; margin: 0px; padding: 0px;">SmartLife&nbsp;Reach In Freezer - Specifications</h2>
+        <div class="sub-tabs" id="ctl00_ContentPlaceHolder2_div_specifications">
+        <h3 class="detailheader">Specifications<span style="float: right;"><a href="#top" style="color: white; font-size: 12px;">Top</a></span></h3>
+        <ul>
+            <li><strong>Model#: </strong><span>955-006</span></li>
+            <li class="shade"><strong>Weight: </strong><span>650 lbs.</span></li>
+            <li><strong>Width: </strong><span>52<sup>1</sup>&frasl;<sub>8</sub>"</span></li>
+            <li class="shade"><strong>Depth: </strong><span>35"</span></li>
+            <li><strong>Height: </strong><span>83<sup>1</sup>&frasl;<sub>4</sub>"</span></li>
+            <li class="shade"><strong>Casters / Legs: </strong><span>6" Casters</span></li>
+            <li><strong>Cord &amp; Plug: </strong><span>9'</span></li>
+            <li class="shade"><strong>Cu. Ft.: </strong><span>46.0</span></li>
+            <li><strong>Door Type: </strong><span>Full</span></li>
+            <li class="shade"><strong>Doors: </strong><span>2</span></li>
+            <li><strong>Exterior: </strong><span>Stainless steel front and doors with anodized aluminum sides</span></li>
+            <li class="shade"><strong>HP: </strong><span><sup>3</sup>&frasl;<sub>4</sub></span></li>
+            <li><strong>Interior: </strong><span>Anodized aluminum</span></li>
+            <li class="shade"><strong>Size: </strong><span>52<sup>1</sup>&frasl;<sub>8</sub>"W</span></li>
+            <li><strong>Temp Range: </strong><span>0&deg;F to -5&deg;F</span></li>
+            <li class="shade"><strong>Type: </strong><span>Reach-In</span></li>
+            <li><strong>Voltage: </strong><span>120V</span></li>
+            <li class="shade"><strong>Compressor: </strong><span>Top mounted</span></li>
+            <li><strong>Catalog Page: </strong><span><a href="https://assets.centralrestaurant.com/pdfs/catalog/4.pdf" target="_blank"> View on Catalog Page 4</a></span></li>
+        </ul>
+        </div>
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: Reliable Refrigeration Costs Less To Run and Maintain, Saves on Food Loss and is Built to Last
+    - ID: "bb7a38c0-323c-4f81-8eb9-288abf7c4638"
+      Hint: MetaDescription
+      Value: Quick Dfreeze
+    - ID: "c236fb11-ab2f-42a7-92a7-09a9258e2637"
+      Hint: Product Title
+      Value: SmartLife Reach In Freezer
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: SmartLife ReachIn Freezer
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Quick Dfreeze
+    - ID: "de1430c5-291b-40c2-ad2d-709efbb7360a"
+      Hint: Short Description
+      Value: |
+        <span style="background-color: #ffffff; text-align: left; letter-spacing: normal; color: #222222;">Smartlife G22013 is a reach-in freezer. This model features precise, reliable control with an LED display. This <span style="background-color: #ffffff; text-align: left; letter-spacing: normal; color: #222222;">Smartlife </span>G22013 has two doors and capacity of 46.0 Cu. Ft. The design features a Top mounted<span class="Apple-converted-space">&nbsp;</span></span><sup style="color: #222222; background-color: #ffffff; margin: 0px; padding: 0px; text-align: left; letter-spacing: normal;">3</sup><span style="background-color: #ffffff; text-align: left; letter-spacing: normal; color: #222222;">&frasl;</span><sub style="color: #222222; background-color: #ffffff; margin: 0px; padding: 0px; text-align: left; letter-spacing: normal;">4</sub><span style="background-color: #ffffff; text-align: left; letter-spacing: normal; color: #222222;">HP compressor and weighs 650 lbs. This commercial freezer, <span style="background-color: #ffffff; text-align: left; letter-spacing: normal; color: #222222;">Smartlife </span>G22013 has an automatic interior light and large interior capacity. Each of the 6 shelves has a load-Safe Guard that protects against improper or over-loading. This <span style="background-color: #ffffff; text-align: left; letter-spacing: normal; color: #222222;">Smartlife </span>G22013, like many reach-in freezers, can hold full-size sheet pans. The exterior features a Stainless steel front and doors with anodized aluminum sides and interior. This <span style="background-color: #ffffff; text-align: left; letter-spacing: normal; color: #222222;">Smartlife </span>G22013 reach-In freezer includes free 6" casters. The unit holds temperature at 0&deg;F to -5&deg;F. Central Restaurant offers full after-sale support and owners manuals for the <span style="background-color: #ffffff; text-align: left; letter-spacing: normal; color: #222222;">Smartlife </span>G22013. This reach-in freezer stands 83</span><sup style="color: #222222; background-color: #ffffff; margin: 0px; padding: 0px; text-align: left; letter-spacing: normal;">1</sup><span style="background-color: #ffffff; text-align: left; letter-spacing: normal; color: #222222;">&frasl;</span><sub style="color: #222222; background-color: #ffffff; margin: 0px; padding: 0px; text-align: left; letter-spacing: normal;">4</sub><span style="background-color: #ffffff; text-align: left; letter-spacing: normal; color: #222222;">"H and requires a 120V connection.</span>
+    - ID: "fdc46723-8fd1-44c0-9938-c7bc00a81768"
+      Hint: Reviews
+      Value: |
+        <div class="review-clip" style="color: #4e4e4e; background-color: #ffffff;"><strong>Steph</strong>&nbsp;<span>on 22/09/2016 (00:40hrs)</span>
+        <p style="margin-bottom: 10px;"><span style="background-color: #ffffff; color: #111111;">I use this freeze around 1year.really its good</span>...&nbsp;<span><a href="http://sitecorehabitat/Products/Product-2#" style="color: #c52d2f; background: none;">&raquo;</a></span></p>
+        </div>
+        <div class="review-clip" style="color: #4e4e4e; background-color: #ffffff;"><strong>Glenn McGrath</strong>&nbsp;<span>on 16/01/2017 (10:40hrs)</span>
+        <p style="margin-bottom: 10px;"><span style="background-color: #ffffff; color: #111111;">What's the rate of 100 litres , and how kilos of non veg stuff will it hold</span> ...&nbsp;<span><a href="http://sitecorehabitat/Products/Product-2#" style="color: #c52d2f; background: none;">&raquo;</a></span></p>
+        </div>

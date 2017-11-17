@@ -1,0 +1,140 @@
+﻿---
+ID: "20064fad-48f1-47ae-a3a0-4cde8fd8f6b4"
+Parent: "0275a11c-f8b8-4ac0-a76c-ca64ce58a5a8"
+Template: "c5b8584b-a263-4169-aea1-2ff6a1cff371"
+Path: /sitecore/content/Habitat/NewHome/Products/Washing Machine/OnPrem Washers
+DB: master
+SharedFields:
+- ID: "0be11d55-96e6-408a-be0e-83836db67232"
+  Hint: "Product-Image"
+  Value: |
+    <image mediaid="{27703C4F-02E6-4FB9-A3F2-18886BB40669}" />
+- ID: "4b517cb2-ab6e-4512-bec3-943778e02bb2"
+  Hint: "Product-Large-Image"
+  Value: |
+    <image mediaid="{27703C4F-02E6-4FB9-A3F2-18886BB40669}" />
+- ID: "77c15b3e-ba56-4719-843d-c0bbae6cc215"
+  Hint: Rating
+  Value: |
+    <img alt="" height="19" width="84" src="-/media/44CBC6716BEA47C8AB06F9031CC1E503.ashx" />
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{F6A127BF-798B-4D69-BF2E-4101FE129EA9}"
+        name="NewSmartAppliancesProfile"
+        presets="onpremiseswasherprofilecard-persona|100||">
+        <key
+          name="AirCooledChillerProfileKey"
+          value="0" />
+        <key
+          name="RoofTopProfileKey"
+          value="0" />
+        <key
+          name="WaterCooledChillerProfileKey"
+          value="0" />
+        <key
+          name="DefreezerProfileKey"
+          value="0" />
+        <key
+          name="Roll-In-FreezerProfileKey"
+          value="0" />
+        <key
+          name="undercounterProfileKey"
+          value="0" />
+        <key
+          name="OnPremisesDryerProfileKey"
+          value="0" />
+        <key
+          name="OnPremisesWasherProfileKey"
+          value="1" />
+        <key
+          name="WasherExtractorProfileKey"
+          value="0" />
+      </profile>
+      <profile
+        id="{897E0D6D-31D0-4DA2-8684-27ACD96A7330}"
+        name="Smartlifeappliances-Category-Profile"
+        presets="washingmachine-profilecard-persona|100||">
+        <key
+          name="AC"
+          value="0" />
+        <key
+          name="Referigerator"
+          value="0" />
+        <key
+          name="WashingMachine"
+          value="1" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d4a62ee-bf47-4fbe-b35a-55631cced460"
+      Hint: Features
+      Value: |
+        <h4 style="color: #333333; background-color: #ffffff; margin-top: 15px; margin-right: 0px; margin-left: 0px;">Key Product Features:</h4>
+        <ul style="color: #333333; background-color: #ffffff; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px;">
+            <li style="background: url('/Content/Images/small-bullet.png') 5px 8px no-repeat; margin: 10px; padding: 0px 0px 0px 20px; list-style-type: none; list-style-image: initial;">Large Capacity Basket</li>
+            <li style="background: url('/Content/Images/small-bullet.png') 5px 8px no-repeat; margin: 10px; padding: 0px 0px 0px 20px; list-style-type: none; list-style-image: initial;">Extra-Large Lid Opening</li>
+            <li style="background: url('/Content/Images/small-bullet.png') 5px 8px no-repeat; margin: 10px; padding: 0px 0px 0px 20px; list-style-type: none; list-style-image: initial;">Heavy-Duty Transmission</li>
+            <li style="background: url('/Content/Images/small-bullet.png') 5px 8px no-repeat; margin: 10px; padding: 0px 0px 0px 20px; list-style-type: none; list-style-image: initial;">Automatic Balancing System</li>
+            <li style="background: url('/Content/Images/small-bullet.png') 5px 8px no-repeat; margin: 10px; padding: 0px 0px 0px 20px; list-style-type: none; list-style-image: initial;">High Extract Speed 710 RPM</li>
+            <li style="background: url('/Content/Images/small-bullet.png') 5px 8px no-repeat; margin: 10px; padding: 0px 0px 0px 20px; list-style-type: none; list-style-image: initial;">Front Serviceability</li>
+        </ul>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: OnPrem Washers
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170316T095715Z
+    - ID: "398aaabe-2e1a-4e7c-a4a6-0f7afc544d93"
+      Hint: Description
+      Value: "Every on-premises laundry needs equipment that can be trusted for long-lasting performance and that gets laundry done on time and on budget. But not all on-premises laundry operations require large-capacity laundry equipment. For those facilities that demand superior quality on a smaller scale, or wish to supplement their current lineup with smaller alternatives, SmartLife top load washers answer the bell with unmatched durability and efficiency."
+    - ID: "40d24aa7-4aaf-48c1-86bb-b0f00c3dc525"
+      Hint: Discounted Price
+      Value: $1099.00
+    - ID: "71d65caf-388f-4a54-b386-5c0cafc6cde1"
+      Hint: Shipping
+      Value: Free Shipping
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{9390BE40-D49E-4B30-83DF-A6C38E6BFB3A}"></image>
+    - ID: "9d615e6c-6493-4a5a-9f15-27adf03ea198"
+      Hint: Price
+      Value: $1279.00
+    - ID: "a7a9e7db-2d07-4600-ba59-19b75984d982"
+      Hint: Specification
+      Value: |
+        <table width="100%" border="0" cellpadding="4" cellspacing="0">
+          <tbody><tr><td style="background: #f5f5f5"><strong>Capacity (cu. ft.)</strong></td><td style="background: #f5f5f5">2.9</td></tr><tr><td style="background: #fff"><strong>Width</strong></td><td style="background: #fff">27</td></tr><tr><td style="background: #f5f5f5"><strong>Height</strong></td><td style="background: #f5f5f5">43</td></tr><tr><td style="background: #fff"><strong>Depth</strong></td><td style="background: #fff">25.9</td></tr><tr><td style="background: #f5f5f5"><strong>Voltage</strong></td><td style="background: #f5f5f5">120 V</td></tr><tr><td style="background: #fff"><strong>Coin Box Included</strong></td><td style="background: #fff">No</td></tr><tr><td style="background: #f5f5f5"><strong>Coin Drop Included</strong></td><td style="background: #f5f5f5">No</td></tr><tr><td style="background: #fff"><strong>Coin Slide Included</strong></td><td style="background: #fff">No</td></tr><tr><td style="background: #f5f5f5"><strong>Reversible Door</strong></td><td style="background: #f5f5f5">No</td></tr><tr><td style="background: #fff"><strong>ADA Compliant</strong></td><td style="background: #fff">No</td></tr>  <tr><td width="35%">&nbsp;</td><td width="65%">&nbsp;</td></tr>
+          </tbody></table>
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: On Premises washers for those facilities that demand superior quality on a smaller scale. SmartLife top load washers offers
+    - ID: "c236fb11-ab2f-42a7-92a7-09a9258e2637"
+      Hint: Product Title
+      Value: SmartLife Light Commercial Front Load Washer
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: SmartLife OnPrem Washers
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: OnPrem Washers
+    - ID: "de1430c5-291b-40c2-ad2d-709efbb7360a"
+      Hint: Short Description
+      Value: SmartLife commercial top load washers combine the commercial qualities of larger capacity, front serviceability and durability with the attractive styling, cycle selections and ease of use of commercial/manual control washers.
+    - ID: "fdc46723-8fd1-44c0-9938-c7bc00a81768"
+      Hint: Reviews
+      Value: |
+        <div class="review-clip" style="color: #4e4e4e; background-color: #ffffff;"><span><strong>Suzanne P</strong></span>&nbsp;<span>on 22/03/2017 (11:20hrs)</span>
+        <p style="margin-bottom: 10px;"><span style="background-color: #ffffff; color: #666666;">Large capacity, love the delay start. so many features. This is my first front loader and I'm very pleased.</span> ...&nbsp;<span><a href="http://sitecorehabitat/Products/Product-2#" style="color: #c52d2f; background: transparent; text-decoration: none;">&raquo;</a></span></p>
+        </div>
+        <div class="review-clip" style="color: #4e4e4e; background-color: #ffffff;"><strong>Mike</strong>&nbsp;<span>on 14/12/20176(16:50hrs)</span>
+        <p style="margin-bottom: 10px;"><span style="background-color: #ffffff; color: #666666;">Love this washer - cleans very well I like that I can have so many settings</span> ...&nbsp;<span><a href="http://sitecorehabitat/Products/Product-2#" style="color: #c52d2f; background: transparent; text-decoration: none;">&raquo;</a></span></p>
+        </div>

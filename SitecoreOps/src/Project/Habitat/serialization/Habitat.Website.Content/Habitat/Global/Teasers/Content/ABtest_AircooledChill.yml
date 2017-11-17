@@ -1,0 +1,64 @@
+﻿---
+ID: "ac7d1e80-58bf-4871-97c0-f0e3c58a15e1"
+Parent: "8508f499-b20d-4505-a5c8-66cdb715d748"
+Template: "af74a00b-8ca7-4c9a-a5c1-156a68590ee2"
+Path: /sitecore/content/Habitat/Global/Teasers/Content/ABtest_AircooledChill
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170330T112146Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: |
+        <span style="text-align: center; color: #4e4e4e; letter-spacing: normal; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut<span class="Apple-converted-space">&nbsp;</span></span><br style="text-align: center; color: #4e4e4e; letter-spacing: normal; background-color: #ffffff;" />
+        <span style="text-align: center; color: #4e4e4e; letter-spacing: normal; background-color: #ffffff;">et dolore magna aliqua. Ut enim ad minim veniam</span>
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Leadership
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170330T112146Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: |
+        <img alt="" src="-/media/EC20A134C4F64E51BCB0D7D8D4E21A93.ashx" height="230" width="575" /><br />
+        <h3 style="color: #787878; background-color: #ffffff; margin: 0px; text-align: start; letter-spacing: normal;">Performance Features</h3>
+        <ul style="color: #4e4e4e; background-color: #ffffff; margin-top: 0px; margin-bottom: 10px; text-align: start; letter-spacing: normal;">
+            <li>Chlorine-free HFC-134a refrigerant</li>
+            <li>Low energy consumption during part load and full load operation</li>
+            <li>208/230 v, 230 v, 460 v, 575 v operational voltages available</li>
+            <li>Wye-delta start is standard on 208/230 v and 230 v 50/60 Hz units (factory-installed option for all other units)</li>
+            <li>Leaving-fluid temperature directly controlled to within 0.5&deg;F (0.3&deg;C)</li>
+            <li>Entering-fluid temperature continuously monitored to detect flow or load changes</li>
+            <li>Compatible with Carrier Comfort Network&reg; (CCN) communication link</li>
+            <li>Heat recovery capability up to 135&deg;F (57.22&deg;C)</li>
+        </ul>
+        <h3 style="color: #787878; background-color: #ffffff; margin: 0px; text-align: start; letter-spacing: normal;">Reliability Features</h3>
+        <ul style="color: #4e4e4e; background-color: #ffffff; margin-top: 0px; margin-bottom: 10px; text-align: start; letter-spacing: normal;">
+            <li>Low voltage control circuits</li>
+            <li>Short cycle protection</li>
+            <li>Dual chiller control</li>
+            <li>Temperature reset from return fluid</li>
+            <li>Chilled water flow switch</li>
+            <li>Electronic refrigerant gauges</li>
+        </ul>
+        <br />
+        <a href="-/media/A56C2EB5932E4A478109D1DEFEFBBB20.ashx">Download brochure</a>
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: "HIGH-EFFICIENCY INDOOR LIQUID SCREW CHILLER"

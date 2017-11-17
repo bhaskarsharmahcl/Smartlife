@@ -1,0 +1,386 @@
+﻿---
+ID: "1347b899-079a-406d-b8ff-64cd83502fa7"
+Parent: "0275a11c-f8b8-4ac0-a76c-ca64ce58a5a8"
+Template: "c5b8584b-a263-4169-aea1-2ff6a1cff371"
+Path: /sitecore/content/Habitat/NewHome/Products/Washing Machine/QuickWash Extractor
+DB: master
+SharedFields:
+- ID: "0be11d55-96e6-408a-be0e-83836db67232"
+  Hint: "Product-Image"
+  Value: |
+    <image mediaid="{5E27FDAE-D6EC-4E51-9601-747D461E0518}" />
+- ID: "4b517cb2-ab6e-4512-bec3-943778e02bb2"
+  Hint: "Product-Large-Image"
+  Value: |
+    <image mediaid="{5E27FDAE-D6EC-4E51-9601-747D461E0518}" />
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{F6A127BF-798B-4D69-BF2E-4101FE129EA9}"
+        name="NewSmartAppliancesProfile"
+        presets="washerextractorprofilecard-persona|100||">
+        <key
+          name="AirCooledChillerProfileKey"
+          value="0" />
+        <key
+          name="RoofTopProfileKey"
+          value="0" />
+        <key
+          name="WaterCooledChillerProfileKey"
+          value="0" />
+        <key
+          name="DefreezerProfileKey"
+          value="0" />
+        <key
+          name="Roll-In-FreezerProfileKey"
+          value="0" />
+        <key
+          name="undercounterProfileKey"
+          value="0" />
+        <key
+          name="OnPremisesDryerProfileKey"
+          value="0" />
+        <key
+          name="OnPremisesWasherProfileKey"
+          value="0" />
+        <key
+          name="WasherExtractorProfileKey"
+          value="1" />
+      </profile>
+      <profile
+        id="{897E0D6D-31D0-4DA2-8684-27ACD96A7330}"
+        name="Smartlifeappliances-Category-Profile"
+        presets="washingmachine-profilecard-persona|100||">
+        <key
+          name="AC"
+          value="0" />
+        <key
+          name="Referigerator"
+          value="0" />
+        <key
+          name="WashingMachine"
+          value="1" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d4a62ee-bf47-4fbe-b35a-55631cced460"
+      Hint: Features
+      Value: |
+        <h3 style="color: #0569c3; background-color: #ffffff; margin: 0px; padding: 0px;">Fully Programmable PLC</h3>
+        <ul style="background-color: #ffffff; margin-top: 20px; margin-right: 0px; margin-left: 20px; padding: 0px;">
+            <li style="margin: 0px; padding: 0px 0px 8px; list-style-type: square; list-style-image: initial;">24 Wash Programs can be stored</li>
+            <li style="margin: 0px; padding: 0px 0px 8px; list-style-type: square; list-style-image: initial;">LCD Display showing complete messages (not just codes)</li>
+            <li style="margin: 0px; padding: 0px 0px 8px; list-style-type: square; list-style-image: initial;">Ability to continue program from paused state (useful when there is a power loss)</li>
+            <li style="margin: 0px; padding: 0px 0px 8px; list-style-type: square; list-style-image: initial;">Cycle time, wash temperature and water level are programmable</li>
+            <li style="margin: 0px; padding: 0px 0px 8px; list-style-type: square; list-style-image: initial;">Standard 5 soap connection upgradeable to 12 soap connections</li>
+            <li style="margin: 0px; padding: 0px 0px 8px; list-style-type: square; list-style-image: initial;">Provision to fit external, automatic soap dispenser</li>
+            <li style="margin: 0px; padding: 0px 0px 8px; list-style-type: square; list-style-image: initial;">Auto chemical dosing via external dosing pumps is possible</li>
+        </ul>
+        <h3 style="color: #0569c3; background-color: #ffffff; margin: 0px; padding: 0px;">Japanese Inverter Drive(standard on all machines)</h3>
+        <ul style="background-color: #ffffff; margin-top: 20px; margin-right: 0px; margin-left: 20px; padding: 0px;">
+            <li style="margin: 0px; padding: 0px 0px 8px; list-style-type: square; list-style-image: initial;">Washing and Extraction RPM&rsquo;s are programmable</li>
+            <li style="margin: 0px; padding: 0px 0px 8px; list-style-type: square; list-style-image: initial;">Enables uniform acceleration of the motor. Prevents voltage fluctuation from affecting the motor.</li>
+            <li style="margin: 0px; padding: 0px 0px 8px; list-style-type: square; list-style-image: initial;">LCD display showing current drawn, frequency, output voltage etc.</li>
+        </ul>
+        <h3 style="color: #0569c3; background-color: #ffffff; margin: 0px; padding: 0px;">Heavy Duty Bearing Housing &amp; Pulley</h3>
+        <ul style="background-color: #ffffff; margin-top: 20px; margin-right: 0px; margin-left: 20px; padding: 0px;">
+            <li style="margin: 0px; padding: 0px 0px 8px; list-style-type: square; list-style-image: initial;">European (Swedish) manufactured Bearings designed to operate at 1000+ RPM (higher G Force)</li>
+            <li style="margin: 0px; padding: 0px 0px 8px; list-style-type: square; list-style-image: initial;">High grade, close grain cast iron (GG25), balance and rugged bearing housing and pulley for longer life</li>
+            <li style="margin: 0px; padding: 0px 0px 8px; list-style-type: square; list-style-image: initial;">Specially designed seal which provides a longer life than conventional oil seals</li>
+        </ul>
+        <h3 style="color: #0569c3; background-color: #ffffff; margin: 0px; padding: 0px;">Suspension</h3>
+        <ul style="background-color: #ffffff; margin-top: 20px; margin-right: 0px; margin-left: 20px; padding: 0px;">
+            <li style="margin: 0px; padding: 0px 0px 8px; list-style-type: square; list-style-image: initial;">All SmartLife washer extractors are free standing machine enabling high extraction speeds/G forces.</li>
+            <li style="margin: 0px; padding: 0px 0px 8px; list-style-type: square; list-style-image: initial;">Dual suspension technology &ndash; Spring suspension on top &amp; shock absorber/spring suspension on bottom</li>
+            <li style="margin: 0px; padding: 0px 0px 8px; list-style-type: square; list-style-image: initial;">Springs manufactured out of high yield strength spring steel alloy preventing any deformation</li>
+            <li style="margin: 0px; padding: 0px 0px 8px; list-style-type: square; list-style-image: initial;">Complete Chrome Piston Rod shock absorbers generate a longer life time</li>
+        </ul>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: QuickWash Extractor
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170316T095715Z
+    - ID: "398aaabe-2e1a-4e7c-a4a6-0f7afc544d93"
+      Hint: Description
+      Value: |
+        <p>Self cleaning four-compartment dispenser automatically dispenses detergent and fabric softener at appropriate times in the wash cycle.Our heavy-duty construction provides reliable operation for years to come.<br />
+        Industry-leading flexible water level settings will help you save on utilities.<br />
+        Durable stainless steel front and top. SmartLife Quickwash Extractor gives you complete laundry control to reduce costs and increase throughput</p>
+    - ID: "40d24aa7-4aaf-48c1-86bb-b0f00c3dc525"
+      Hint: Discounted Price
+      Value: $2005.00
+    - ID: "71d65caf-388f-4a54-b386-5c0cafc6cde1"
+      Hint: Shipping
+      Value: Free Shipping
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{268C43B4-1725-4710-B334-34CC3D46F6AC}"></image>
+    - ID: "9d615e6c-6493-4a5a-9f15-27adf03ea198"
+      Hint: Price
+      Value: $2145.00
+    - ID: "a7a9e7db-2d07-4600-ba59-19b75984d982"
+      Hint: Specification
+      Value: |
+        <p>
+        </p>
+        <div id="modal_heading" style="background: #f7f7f7; margin: 0px; padding: 10px; border-bottom: 1px solid #e7e7e7;">
+        <h2 class="tech" style="margin: 0px; padding: 0px;">Technical Specification</h2>
+        </div>
+        <div id="modal_content" style="margin: 0px; padding: 10px;">&nbsp;</div>
+        <p>&nbsp;</p>
+        <p style="margin-bottom: 0px; padding: 0px;">&nbsp;</p>
+        <p>
+        </p>
+        <div id="modal_content" style="margin: 0px; padding: 10px;">
+        <table border="0" cellspacing="0" cellpadding="0" style="width: 1084px; border-spacing: 0px;">
+            <tbody>
+                <tr class="thead" style="color: #ffffff; background: #0569c3;">
+                    <td style="margin: 0px; padding: 5px; text-align: center; width: 2%;">SI. No</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center; width: 5%;">Capacity (kgs)</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center; width: 4%;">
+                    <p>&nbsp;</p>
+                    <p style="margin-bottom: 0px; padding: 0px;">Basket Volume</p>
+                    <p style="padding: 0px;">(ltrs)</p>
+                    <p>&nbsp;</p>
+                    </td>
+                    <td style="margin: 0px; padding: 5px; text-align: center; width: 4%;">
+                    <p>&nbsp;</p>
+                    <p style="margin-bottom: 0px; padding: 0px;">Basket Diameter</p>
+                    <p style="padding: 0px;">(mm)</p>
+                    <p>&nbsp;</p>
+                    </td>
+                    <td style="margin: 0px; padding: 5px; text-align: center; width: 5%;">
+                    <p>&nbsp;</p>
+                    <p style="margin-bottom: 0px; padding: 0px;">Basket Depth</p>
+                    <p style="padding: 0px;">(mm)</p>
+                    <p>&nbsp;</p>
+                    </td>
+                    <td style="margin: 0px; padding: 5px; text-align: center; width: 6%;">
+                    <p>&nbsp;</p>
+                    <p style="margin-bottom: 0px; padding: 0px;">Motor</p>
+                    <p style="padding: 0px;">(hp)</p>
+                    <p>&nbsp;</p>
+                    </td>
+                    <td style="margin: 0px; padding: 5px; text-align: center; width: 5%;">
+                    <p>&nbsp;</p>
+                    <p style="margin-bottom: 0px; padding: 0px;">Max</p>
+                    <p style="margin-bottom: 0px; padding: 0px;">RPM</p>
+                    <p style="padding: 0px;">(rpm)</p>
+                    <p>&nbsp;</p>
+                    </td>
+                    <td style="margin: 0px; padding: 5px; text-align: center; width: 5%;">
+                    <p>&nbsp;</p>
+                    <p style="margin-bottom: 0px; padding: 0px;">G Force</p>
+                    <p style="padding: 0px;">(g)</p>
+                    <p>&nbsp;</p>
+                    </td>
+                    <td style="margin: 0px; padding: 5px; text-align: center; width: 6%;">
+                    <p>&nbsp;</p>
+                    <p style="margin-bottom: 0px; padding: 0px;">Water inlet</p>
+                    <p style="padding: 0px;">(mm)</p>
+                    <p>&nbsp;</p>
+                    </td>
+                    <td style="margin: 0px; padding: 5px; text-align: center; width: 5%;">
+                    <p>&nbsp;</p>
+                    <p style="margin-bottom: 0px; padding: 0px;">Drain outlet</p>
+                    <p style="padding: 0px;">(mm)</p>
+                    <p>&nbsp;</p>
+                    </td>
+                    <td style="margin: 0px; padding: 5px; text-align: center; width: 4%;">
+                    <p>&nbsp;</p>
+                    <p style="margin-bottom: 0px; padding: 0px;">Steam inlet</p>
+                    <p style="padding: 0px;">(mm)</p>
+                    <p>&nbsp;</p>
+                    </td>
+                    <td style="margin: 0px; padding: 5px; text-align: center; width: 9%;">
+                    <p>&nbsp;</p>
+                    <p style="margin-bottom: 0px; padding: 0px;">Steam Pressure</p>
+                    <p style="padding: 0px;">(bar)</p>
+                    <p>&nbsp;</p>
+                    </td>
+                    <td style="margin: 0px; padding: 5px; text-align: center; width: 6%;">
+                    <p>&nbsp;</p>
+                    <p style="margin-bottom: 0px; padding: 0px;">Air Pressure</p>
+                    <p style="padding: 0px;">(bar)</p>
+                    <p>&nbsp;</p>
+                    </td>
+                    <td style="margin: 0px; padding: 5px; text-align: center; width: 6%;">
+                    <p>&nbsp;</p>
+                    <p style="margin-bottom: 0px; padding: 0px;">Electrical Heating</p>
+                    <p style="padding: 0px;">(kw)(opt)</p>
+                    <p>&nbsp;</p>
+                    </td>
+                    <td style="margin: 0px; padding: 5px; text-align: center; width: 8%;">
+                    <p>&nbsp;</p>
+                    <p style="margin-bottom: 0px; padding: 0px;">Door Opening Diameter</p>
+                    <p style="padding: 0px;">(mm)</p>
+                    <p>&nbsp;</p>
+                    </td>
+                    <td style="margin: 0px; padding: 5px; text-align: center; width: 8%;">
+                    <p>&nbsp;</p>
+                    <p style="margin-bottom: 0px; padding: 0px;">Dimension (LxWxH)</p>
+                    <p style="padding: 0px;">(mm)</p>
+                    <p>&nbsp;</p>
+                    </td>
+                    <td style="margin: 0px; padding: 5px; text-align: center; width: 6%;">
+                    <p>&nbsp;</p>
+                    <p style="margin-bottom: 0px; padding: 0px;">Approx Weight</p>
+                    <p style="padding: 0px;">(kgs)</p>
+                    <p>&nbsp;</p>
+                    </td>
+                </tr>
+                <tr style="background: #9cd0ff;">
+                    <td style="margin: 0px; padding: 5px; text-align: center;">1.</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">10</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">109</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">630</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">330</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">1.5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">990</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">350</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">25</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">25</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">12.5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">N.A</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">6</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">360</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">930x970x1355</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">750</td>
+                </tr>
+                <tr style="background: #e8ecef;">
+                    <td style="margin: 0px; padding: 5px; text-align: center;">2.</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">15</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">151</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">630</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">485</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">2</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">1080</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">410</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">25</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">50</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">12.5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">9</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">355</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">1185x965x1460</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">850</td>
+                </tr>
+                <tr style="background: #9cd0ff;">
+                    <td style="margin: 0px; padding: 5px; text-align: center;">3.</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">30</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">304</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">840</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">550</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">7.5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">865</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">350</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">25</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">75</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">12.5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">18</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">525</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">1300x1280x1750</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">1200</td>
+                </tr>
+                <tr style="background: #e8ecef;">
+                    <td style="margin: 0px; padding: 5px; text-align: center;">4.</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">45</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">450</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">970</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">605</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">7.5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">805</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">350</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">25</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">75</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">12.5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">27</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">525</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">1400x1350x1780</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">1700</td>
+                </tr>
+                <tr style="background: #9cd0ff;">
+                    <td style="margin: 0px; padding: 5px; text-align: center;">5.</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">60</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">620</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">1020</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">760</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">15</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">785</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">350</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">40</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">100</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">12.5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">27 (36 optional)</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">670</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">1500x1350x1950</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">2500</td>
+                </tr>
+                <tr style="background: #e8ecef;">
+                    <td style="margin: 0px; padding: 5px; text-align: center;">6.</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">110</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">1100</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">1325</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">810</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">25</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">685</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">350</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">50</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">100</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">25</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">5</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">27 (36 optional)</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">670</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">2085x1900x2430</td>
+                    <td style="margin: 0px; padding: 5px; text-align: center;">2850</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        <p>&nbsp;</p>
+        <p style="padding: 0px;">&nbsp;</p>
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "Commercial washing machines make all the difference in a coin-operated laundry business."
+    - ID: "c236fb11-ab2f-42a7-92a7-09a9258e2637"
+      Hint: Product Title
+      Value: "QuickWash Pass-through washer extractors"
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: SmartLife QuickWash Extractor
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: QuickWash Extractor
+    - ID: "de1430c5-291b-40c2-ad2d-709efbb7360a"
+      Hint: Short Description
+      Value: |
+        <span style="background-color: #ffffff; color: #666666;">Our heavy-duty construction provides reliable operation and guarantees your washer-extractor will be in service for years to come.</span>
+    - ID: "fdc46723-8fd1-44c0-9938-c7bc00a81768"
+      Hint: Reviews
+      Value: |
+        <div class="review-clip" style="color: #4e4e4e; background-color: #ffffff;"><span><strong>James Horner</strong></span>&nbsp;<span>on 20/01/2017 (14:50hrs)</span>
+        <p style="margin-bottom: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut&nbsp;<br />
+        et dolore magna aliqua. Ut enim ad minim veniam ...&nbsp;<span><a href="http://sitecorehabitat/Products/Product-2#" style="color: #c52d2f; background: transparent; text-decoration: none;">&raquo;</a></span></p>
+        </div>
+        <div class="review-clip" style="color: #4e4e4e; background-color: #ffffff;"><span><strong>James Horner</strong></span>&nbsp;<span>on 20/01/2017 (14:50hrs)</span>
+        <p style="margin-bottom: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut&nbsp;<br />
+        et dolore magna aliqua. Ut enim ad minim veniam ...&nbsp;<span><a href="http://sitecorehabitat/Products/Product-2#" style="color: #c52d2f; background: transparent; text-decoration: none;">&raquo;</a></span></p>
+        </div>

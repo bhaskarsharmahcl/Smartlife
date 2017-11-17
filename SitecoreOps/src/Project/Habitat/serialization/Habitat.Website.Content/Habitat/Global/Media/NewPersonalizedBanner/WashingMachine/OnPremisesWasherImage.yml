@@ -1,0 +1,22 @@
+﻿---
+ID: "c820db75-1b65-4d91-8cef-707f671fe8ed"
+Parent: "4acb2181-a56e-4084-a261-7cb383ae04a4"
+Template: "c18d3794-d126-4548-bfc8-89358de6e9c1"
+Path: /sitecore/content/Habitat/Global/Media/NewPersonalizedBanner/WashingMachine/OnPremisesWasherImage
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170416T083756Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "72ea8682-24d2-4beb-951c-3e2164974105"
+      Hint: MediaSelector
+      Type: Multilist
+      Value: "{C15C3762-2773-464B-80AC-BD03DC9BAA2D}"

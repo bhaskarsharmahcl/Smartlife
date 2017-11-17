@@ -1,0 +1,227 @@
+﻿---
+ID: "14e4f38a-6380-4320-9c05-e46ff44ef253"
+Parent: "6383defc-59f2-4f91-9ee5-f466481b1194"
+Template: "c5b8584b-a263-4169-aea1-2ff6a1cff371"
+Path: /sitecore/content/Habitat/NewHome/Products/Refrigerator/Quick Dfreeze
+DB: master
+SharedFields:
+- ID: "0be11d55-96e6-408a-be0e-83836db67232"
+  Hint: "Product-Image"
+  Value: |
+    <image mediaid="{D0A3DBEB-60B1-49B2-97B3-FF9A90953CBC}" />
+- ID: "4b517cb2-ab6e-4512-bec3-943778e02bb2"
+  Hint: "Product-Large-Image"
+  Value: |
+    <image mediaid="{D0A3DBEB-60B1-49B2-97B3-FF9A90953CBC}" />
+- ID: "77c15b3e-ba56-4719-843d-c0bbae6cc215"
+  Hint: Rating
+  Value: |
+    <img alt="" height="19" width="84" src="-/media/44CBC6716BEA47C8AB06F9031CC1E503.ashx" /><img alt="" /><img alt="" /><img alt="" /><img alt="" /><img alt="" />
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{F6A127BF-798B-4D69-BF2E-4101FE129EA9}"
+        name="NewSmartAppliancesProfile"
+        presets="defreezerprofilekeyprofilecard-persona|100||">
+        <key
+          name="AirCooledChillerProfileKey"
+          value="0" />
+        <key
+          name="RoofTopProfileKey"
+          value="0" />
+        <key
+          name="WaterCooledChillerProfileKey"
+          value="0" />
+        <key
+          name="DefreezerProfileKey"
+          value="1" />
+        <key
+          name="Roll-In-FreezerProfileKey"
+          value="0" />
+        <key
+          name="undercounterProfileKey"
+          value="0" />
+        <key
+          name="OnPremisesDryerProfileKey"
+          value="0" />
+        <key
+          name="OnPremisesWasherProfileKey"
+          value="0" />
+        <key
+          name="WasherExtractorProfileKey"
+          value="0" />
+      </profile>
+      <profile
+        id="{897E0D6D-31D0-4DA2-8684-27ACD96A7330}"
+        name="Smartlifeappliances-Category-Profile"
+        presets="referigerator-profilecard-persona|100||">
+        <key
+          name="AC"
+          value="0" />
+        <key
+          name="Referigerator"
+          value="1" />
+        <key
+          name="WashingMachine"
+          value="0" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d4a62ee-bf47-4fbe-b35a-55631cced460"
+      Hint: Features
+      Value: |
+        <ul class="a-unordered-list a-vertical a-spacing-none" style="color: #949494; background-color: #ffffff; margin-right: 0px; margin-bottom: 0px; margin-left: 18px; padding: 0px;">
+            <li style="margin: 0px; list-style-type: none;"><strong></strong>
+            <h4 style="color: #303030; background-color: #ffffff; margin: 0px; padding: 0px;">Features</h4>
+            </li>
+            <li style="margin: 0px; list-style-type: none;"><strong>&nbsp;</strong></li>
+            <li style="margin: 0px; list-style-type: disc; list-style-image: initial;"><span class="a-list-item" style="color: #111111;">Up To 100 Hours Cooling Retention After Power Failure</span></li>
+            <li style="margin: 0px; list-style-type: disc; list-style-image: initial;"><span class="a-list-item" style="color: #111111;">Innovation Products Design Leads The Super Cooling And Freezing Capacity</span></li>
+            <li style="margin: 0px; list-style-type: disc; list-style-image: initial;"><span class="a-list-item" style="color: #111111;">Curved Glass Top Freezer</span></li>
+            <li style="margin: 0px; list-style-type: disc; list-style-image: initial;"><span class="a-list-item" style="color: #111111;">Cellular Foaming Technology</span></li>
+            <li style="margin: 0px; list-style-type: disc; list-style-image: initial;"><span class="a-list-item" style="color: #111111;">Tropicalized Compressor</span></li>
+        </ul>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Quick Dfreeze
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170316T090701Z
+    - ID: "398aaabe-2e1a-4e7c-a4a6-0f7afc544d93"
+      Hint: Description
+      Value: |
+        <p><span style="background-color: #ffffff; color: #333333;">SmartLife Quick Defreeze&nbsp;Special Design To Save The Power Using Super Cooling Retention Up To 100 Hours Cooling Retention After Power Failure Super Cooling Capacity Innovation Products Design Leads The Super Cooling And Freezing Capacity.</span></p>
+        <p><span style="background-color: #ffffff; color: #333333;">It features an easy-access adjustable temperature control, space-saving flat-back design and durable aluminum interior</span></p>
+    - ID: "40d24aa7-4aaf-48c1-86bb-b0f00c3dc525"
+      Hint: Discounted Price
+      Value: $5500
+    - ID: "527bcbf8-a38c-4393-8d9d-88189d0c84eb"
+      Hint: Product Sub Title
+      Value: 
+    - ID: "71d65caf-388f-4a54-b386-5c0cafc6cde1"
+      Hint: Shipping
+      Value: Free Shipping
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{347ED214-008B-4ACF-9EA9-F58A45E6AA68}"></image>
+    - ID: "9d615e6c-6493-4a5a-9f15-27adf03ea198"
+      Hint: Price
+      Value: $6,968.77
+    - ID: "a7a9e7db-2d07-4600-ba59-19b75984d982"
+      Hint: Specification
+      Value: |
+        <h2 style="color: #222222; background-color: #ffffff; margin: 0px; padding: 0px;">SmartLife&nbsp;Quick Dfreeze Deep Freezer - Specifications</h2>
+        <aside class="keyftr" style="color: #222222; background-color: #ffffff; width: 460px; margin: 20px 0px 0px;">
+        <table cellspacing="0" cellpadding="0" border="0" width="100%" style="width: 460px; margin: 0px 0px 15px; border-spacing: 0px;">
+            <tbody>
+                <tr>
+                    <td class="keynm" style="color: #747474; width: 120px; padding: 5px 0px; border-bottom: 1px dotted #cccccc; border-left: 0px; text-align: left;">Brand Name</td>
+                    <td itemprop="brand" style="color: #747474; padding: 5px 10px; border-bottom: 1px dotted #cccccc; border-left-color: #cccccc; border-left-style: dotted; text-align: left;">SmartLife</td>
+                </tr>
+                <tr>
+                    <td class="keynm" style="color: #747474; width: 120px; padding: 5px 0px; border-bottom: 1px dotted #cccccc; border-left: 0px; text-align: left;">Capacity</td>
+                    <td style="color: #747474; padding: 5px 10px; border-bottom: 1px dotted #cccccc; border-left-color: #cccccc; border-left-style: dotted; text-align: left;">588 Litres</td>
+                </tr>
+                <tr>
+                    <td class="keynm" style="color: #747474; width: 120px; padding: 5px 0px; border-bottom: 1px dotted #cccccc; border-left: 0px; text-align: left;">Type</td>
+                    <td style="color: #747474; padding: 5px 10px; border-bottom: 1px dotted #cccccc; border-left-color: #cccccc; border-left-style: dotted; text-align: left;">Deep Freezer</td>
+                </tr>
+                <tr>
+                    <td class="keynm" style="color: #747474; width: 120px; padding: 5px 0px; border-bottom: 1px dotted #cccccc; border-left: 0px; text-align: left;">Handle Type</td>
+                    <td style="color: #747474; padding: 5px 10px; border-bottom: 1px dotted #cccccc; border-left-color: #cccccc; border-left-style: dotted; text-align: left;">Yes</td>
+                </tr>
+                <tr>
+                    <td class="keynm" style="color: #747474; width: 120px; padding: 5px 0px; border-bottom: 1px dotted #cccccc; border-left: 0px; text-align: left;">Color</td>
+                    <td style="color: #747474; padding: 5px 10px; border-bottom: 1px dotted #cccccc; border-left-color: #cccccc; border-left-style: dotted; text-align: left;">White</td>
+                </tr>
+                <tr>
+                    <td class="keynm" style="color: #747474; width: 120px; padding: 5px 0px; border-bottom: 1px dotted #cccccc; border-left: 0px; text-align: left;">Energy Consumption</td>
+                    <td style="color: #747474; padding: 5px 10px; border-bottom: 1px dotted #cccccc; border-left-color: #cccccc; border-left-style: dotted; text-align: left;">595 kWh/yr</td>
+                </tr>
+                <tr>
+                    <td class="keynm" style="color: #747474; width: 120px; padding: 5px 0px; border-bottom: 1px dotted #cccccc; border-left: 0px; text-align: left;">Door Lock</td>
+                    <td style="color: #747474; padding: 5px 10px; border-bottom: 1px dotted #cccccc; border-left-color: #cccccc; border-left-style: dotted; text-align: left;">Yes</td>
+                </tr>
+                <tr>
+                    <td class="keynm" style="color: #747474; width: 120px; padding: 5px 0px; border-bottom: 1px dotted #cccccc; border-left: 0px; text-align: left;">Dimensions</td>
+                    <td style="color: #747474; padding: 5px 10px; border-bottom: 1px dotted #cccccc; border-left-color: #cccccc; border-left-style: dotted; text-align: left;">165 x 84.5 x 74.5 cm</td>
+                </tr>
+                <tr>
+                    <td class="keynm" style="color: #747474; width: 120px; padding: 5px 0px; border-bottom: 1px dotted #cccccc; border-left: 0px; text-align: left;">Model</td>
+                    <td style="color: #747474; padding: 5px 10px; border-bottom: 1px dotted #cccccc; border-left-color: #cccccc; border-left-style: dotted; text-align: left;">Qucik Dfreeze</td>
+                </tr>
+            </tbody>
+        </table>
+        </aside><aside class="keyftr rt" style="color: #222222; background-color: #ffffff; width: 460px; margin: 20px 0px 0px;">
+        <table cellspacing="0" cellpadding="0" border="0" width="100%" style="width: 460px; margin: 0px 0px 15px; border-spacing: 0px;">
+            <tbody>
+                <tr>
+                    <td class="keynm" style="color: #747474; width: 120px; padding: 5px 0px; border-bottom: 1px dotted #cccccc; border-left: 0px; text-align: left;">Control System</td>
+                    <td style="color: #747474; padding: 5px 10px; border-bottom: 1px dotted #cccccc; border-left-color: #cccccc; border-left-style: dotted; text-align: left;">Mechanical</td>
+                </tr>
+                <tr>
+                    <td class="keynm" style="color: #747474; width: 120px; padding: 5px 0px; border-bottom: 1px dotted #cccccc; border-left: 0px; text-align: left;">Climate Class</td>
+                    <td style="color: #747474; padding: 5px 10px; border-bottom: 1px dotted #cccccc; border-left-color: #cccccc; border-left-style: dotted; text-align: left;">T=18-43 Deg C</td>
+                </tr>
+                <tr>
+                    <td class="keynm" style="color: #747474; width: 120px; padding: 5px 0px; border-bottom: 1px dotted #cccccc; border-left: 0px; text-align: left;">Cooling Technology Freezer</td>
+                    <td style="color: #747474; padding: 5px 10px; border-bottom: 1px dotted #cccccc; border-left-color: #cccccc; border-left-style: dotted; text-align: left;">Static</td>
+                </tr>
+                <tr>
+                    <td class="keynm" style="color: #747474; width: 120px; padding: 5px 0px; border-bottom: 1px dotted #cccccc; border-left: 0px; text-align: left;">Number Of Gaskets</td>
+                    <td style="color: #747474; padding: 5px 10px; border-bottom: 1px dotted #cccccc; border-left-color: #cccccc; border-left-style: dotted; text-align: left;">2</td>
+                </tr>
+                <tr>
+                    <td class="keynm" style="color: #747474; width: 120px; padding: 5px 0px; border-bottom: 1px dotted #cccccc; border-left: 0px; text-align: left;">Total Gross Capacity</td>
+                    <td style="color: #747474; padding: 5px 10px; border-bottom: 1px dotted #cccccc; border-left-color: #cccccc; border-left-style: dotted; text-align: left;">588 Litres</td>
+                </tr>
+                <tr>
+                    <td class="keynm" style="color: #747474; width: 120px; padding: 5px 0px; border-bottom: 1px dotted #cccccc; border-left: 0px; text-align: left;">Power-on Indicator Light Green</td>
+                    <td style="color: #747474; padding: 5px 10px; border-bottom: 1px dotted #cccccc; border-left-color: #cccccc; border-left-style: dotted; text-align: left;">Yes</td>
+                </tr>
+                <tr>
+                    <td class="keynm" style="color: #747474; width: 120px; padding: 5px 0px; border-bottom: 1px dotted #cccccc; border-left: 0px; text-align: left;">Super Freeze Indicator Light Yellow</td>
+                    <td style="color: #747474; padding: 5px 10px; border-bottom: 1px dotted #cccccc; border-left-color: #cccccc; border-left-style: dotted; text-align: left;">Yes</td>
+                </tr>
+                <tr>
+                    <td class="keynm" style="color: #747474; width: 120px; padding: 5px 0px; border-bottom: 1px dotted #cccccc; border-left: 0px; text-align: left;">Adjustable Feet Front / Rear (cm)</td>
+                    <td style="color: #747474; padding: 5px 10px; border-bottom: 1px dotted #cccccc; border-left-color: #cccccc; border-left-style: dotted; text-align: left;">4 Castors</td>
+                </tr>
+            </tbody>
+        </table>
+        </aside>
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: The SmartLife Quick DFreeze 50 cu ft chest freezer can hold up to 1075 lbs of frozen food to give you additional storage space
+    - ID: "bb7a38c0-323c-4f81-8eb9-288abf7c4638"
+      Hint: MetaDescription
+      Value: Quick Dfreeze
+    - ID: "c236fb11-ab2f-42a7-92a7-09a9258e2637"
+      Hint: Product Title
+      Value: SmartLife Deep Freezer 50.0 cu ft Large Size
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: SmartLife Quick Dfreeze
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Quick Dfreeze
+    - ID: "de1430c5-291b-40c2-ad2d-709efbb7360a"
+      Hint: Short Description
+      Value: "The SmartLife Deep Freezer can hold up to 175 pounds of frozen food to give you additional storage space. It features an easy-access adjustable temperature control, space-saving flat-back design and durable aluminum interior. A removable basket lets you compartmentalize the space as you like."
+    - ID: "fdc46723-8fd1-44c0-9938-c7bc00a81768"
+      Hint: Reviews
+      Value: |
+        <div class="review-clip" style="color: #4e4e4e; background-color: #ffffff;"><strong>Steph</strong>&nbsp;<span>on 22/09/2016 (00:40hrs)</span>
+        <p style="margin-bottom: 10px;"><span style="background-color: #ffffff; color: #111111;">I use this freeze around 1year.really its good</span>...&nbsp;<span><a href="http://sitecorehabitat/Products/Product-2#" style="color: #c52d2f; background: none;">&raquo;</a></span></p>
+        </div>
+        <div class="review-clip" style="color: #4e4e4e; background-color: #ffffff;"><strong>Glenn McGrath</strong>&nbsp;<span>on 16/01/2017 (10:40hrs)</span>
+        <p style="margin-bottom: 10px;"><span style="background-color: #ffffff; color: #111111;">What's the rate of 100 litres , and how kilos of non veg stuff will it hold</span> ...&nbsp;<span><a href="http://sitecorehabitat/Products/Product-2#" style="color: #c52d2f; background: none;">&raquo;</a></span></p>
+        </div>

@@ -1,0 +1,22 @@
+﻿---
+ID: "e267e7d2-130b-421b-9189-01c1dbf6ab67"
+Parent: "72a0a3df-df99-49c6-93ed-f9b9ab8d5a05"
+Template: "c18d3794-d126-4548-bfc8-89358de6e9c1"
+Path: /sitecore/content/Habitat/Global/Media/NewPersonalizedBanner/AC/WaterCooledChillerImage
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170416T083641Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "72ea8682-24d2-4beb-951c-3e2164974105"
+      Hint: MediaSelector
+      Type: Multilist
+      Value: "{6D937F94-EF83-4AD0-866E-CD9AE964E43E}"

@@ -1,0 +1,178 @@
+﻿---
+ID: "e3161c46-6c64-4508-b292-9c96d3602ecb"
+Parent: "0a165175-80f7-4d74-abfe-1e8371df0761"
+Template: "8ee208f9-a6a6-41e2-88a0-c188737a178c"
+Path: "/sitecore/content/Habitat/NewHome/About Us-Old"
+DB: master
+SharedFields:
+- ID: "5585a30d-b115-4753-93ce-422c3455deb2"
+  Hint: ShowInNavigation
+  Type: Checkbox
+  Value: 0
+- ID: "68016087-aa00-45d6-922a-678475c50d4a"
+  Hint: ShowChildren
+  Type: Checkbox
+  Value: 0
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{7D7D32C8-EA3E-457B-863D-2746188700F1}"
+          p:after="r[@uid='{4CCE9733-5AC9-4AA0-8DD0-3B7F27B6ECD6}']"
+          s:ds=""
+          s:id="{D201A487-5099-48A1-8189-55944F70C6CB}"
+          s:par="Background&amp;Background Image&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames"
+          s:ph="page-layout" />
+        <r
+          uid="{FD37EBD1-366F-4D05-940F-A78FE7137F68}"
+          p:after="r[@uid='{79AB2261-81EA-4D77-995C-E31D4142878B}']"
+          s:par="Background=%7BBAC6B529-7D87-4996-AAA7-996BB558659A%7D&amp;Background Image=%3Cimage%20mediaid%3D%22%7B14A44DB6-D470-4871-B662-8DD75E40C8F4%7D%22%20%2F%3E&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames"
+          s:ph="/footer/section" />
+        <r
+          uid="{71173A26-6D3E-4360-82B1-F09E299EBA6E}"
+          p:after="r[@uid='{B16ECE6C-E3D7-44EC-B991-9DD9BBA43F33}']"
+          s:ds=""
+          s:id="{695CEE74-D8F4-481D-B813-237050809290}"
+          s:par=""
+          s:ph="/page-layout/section/col-huge" />
+        <r
+          uid="{F4BCD868-D619-4B8D-A4C9-2B2E33DFC7A8}"
+          p:after="r[@uid='{71173A26-6D3E-4360-82B1-F09E299EBA6E}']"
+          s:ds="{2DC2B4FD-207C-47B2-84B3-9CA469BFEAB0}"
+          s:id="{9949D16A-B68C-4AF5-8E9E-3E9A1009B367}"
+          s:par=""
+          s:ph="/page-layout/section/col-huge" />
+        <r
+          uid="{AD609433-A997-4B14-BAAB-0F604057A069}"
+          p:after="r[@uid='{F4BCD868-D619-4B8D-A4C9-2B2E33DFC7A8}']"
+          s:ds="{4E29A6F5-35BF-4416-8385-5CC1675AF116}"
+          s:id="{695CEE74-D8F4-481D-B813-237050809290}"
+          s:par=""
+          s:ph="/page-layout/section/col-huge" />
+        <r
+          uid="{34B1DD50-3E74-4200-B923-8057E4D19AD8}"
+          p:after="r[@uid='{AD609433-A997-4B14-BAAB-0F604057A069}']"
+          s:ds="{03167897-2A83-4AB4-A655-5B295322F17C}"
+          s:id="{6A2D7017-506D-4E8F-AB4F-0A4F7DC1E110}"
+          s:par=""
+          s:ph="/page-layout/section/col-huge" />
+        <r
+          uid="{5A7606A5-99F1-43F7-8297-F2A74E305AB0}"
+          p:after="r[@uid='{34B1DD50-3E74-4200-B923-8057E4D19AD8}']"
+          s:ds="{8AD6E8D2-D099-42D2-BF9F-F2BF466352D6}"
+          s:id="{695CEE74-D8F4-481D-B813-237050809290}"
+          s:par=""
+          s:ph="/page-layout/section/col-huge" />
+        <r
+          uid="{8CA0AE3C-1D55-4423-AC16-8CD2D6E87E63}"
+          p:after="r[@uid='{5A7606A5-99F1-43F7-8297-F2A74E305AB0}']" />
+        <r
+          uid="{D77FCDE0-06FB-47FC-BA09-F0A22F917417}"
+          p:after="*[1=2]"
+          s:ds="{9014B242-2220-4CE4-87EA-CF51C8758F21}"
+          s:id="{571403A1-2865-4B26-ADD8-0900F9FFC420}"
+          s:par=""
+          s:ph="/page-layout/section/col-huge" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: About Us
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170314T114429Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: |
+        <span style="text-align: center; color: #4e4e4e; letter-spacing: normal; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut<span class="Apple-converted-space">&nbsp;</span></span><br style="text-align: center; color: #4e4e4e; letter-spacing: normal; background-color: #ffffff;" />
+        <span style="text-align: center; color: #4e4e4e; letter-spacing: normal; background-color: #ffffff;">et dolore magna aliqua. Ut enim ad minim veniam</span>
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: About Us
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: About Us
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <span style="text-align: center; color: #4e4e4e; letter-spacing: normal; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut<span class="Apple-converted-space">&nbsp;</span></span><br style="text-align: center; color: #4e4e4e; letter-spacing: normal; background-color: #ffffff;" />
+        <span style="text-align: center; color: #4e4e4e; letter-spacing: normal; background-color: #ffffff;">et dolore magna aliqua. Ut enim ad minim veniam</span>
+  - Version: 2
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: About Us
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170620T043749Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: |
+        <span style="text-align: center; color: #4e4e4e; letter-spacing: normal; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut<span class="Apple-converted-space">&nbsp;</span></span><br style="text-align: center; color: #4e4e4e; letter-spacing: normal; background-color: #ffffff;" />
+        <span style="text-align: center; color: #4e4e4e; letter-spacing: normal; background-color: #ffffff;">et dolore magna aliqua. Ut enim ad minim veniam</span>
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: "About Us - Updated"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20170620T043749Z
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: About Us
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <span style="text-align: center; color: #4e4e4e; letter-spacing: normal; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut<span class="Apple-converted-space">&nbsp;</span></span><br style="text-align: center; color: #4e4e4e; letter-spacing: normal; background-color: #ffffff;" />
+        <span style="text-align: center; color: #4e4e4e; letter-spacing: normal; background-color: #ffffff;">et dolore magna aliqua. Ut enim ad minim veniam</span>
+  - Version: 3
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: About Us
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170620T044511Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: |
+        <span style="text-align: center; color: #4e4e4e; letter-spacing: normal; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut<span class="Apple-converted-space">&nbsp;</span></span><br style="text-align: center; color: #4e4e4e; letter-spacing: normal; background-color: #ffffff;" />
+        <span style="text-align: center; color: #4e4e4e; letter-spacing: normal; background-color: #ffffff;">et dolore magna aliqua. Ut enim ad minim veniam</span>
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: "About Us - second update"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20170620T044511Z
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: About Us
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <span style="text-align: center; color: #4e4e4e; letter-spacing: normal; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut<span class="Apple-converted-space">&nbsp;</span></span><br style="text-align: center; color: #4e4e4e; letter-spacing: normal; background-color: #ffffff;" />
+        <span style="text-align: center; color: #4e4e4e; letter-spacing: normal; background-color: #ffffff;">et dolore magna aliqua. Ut enim ad minim veniam</span>

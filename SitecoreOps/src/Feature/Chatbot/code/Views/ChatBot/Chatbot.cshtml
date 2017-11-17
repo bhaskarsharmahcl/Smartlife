@@ -1,0 +1,46 @@
+﻿<link rel="stylesheet" type="text/css" href="~/scripts/Chatbot/css/chat.css">
+<script src="~/scripts/jquery.js"></script>
+<script src="~/scripts/Chatbot/js/chat.js" type="text/javascript"></script>
+<script src="~/scripts/Chatbot/js/jquery.session.js" type="text/javascript"></script>
+
+<div id="chatTogglerDiv" style="opacity: 1;position: fixed;bottom: 15px;right:15px;">
+    <a href="#"><img id="chatTogglerImg" src="~/scripts/Chatbot/img/chatLogo.png"></a>
+</div>
+<div class="popup-box chat-popup" id="qnimate1">
+    <div class="row chat-window col-xs-5 col-md-3" id="chat_window_1" style="margin-left:10px;display: none">
+        <div class="col-xs-12 col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading top-bar">
+                    <div class="col-md-8 col-xs-8">
+                        <h3 class="panel-title"><span class="glyphicon glyphicon-comment"></span> Virtual Assistant</h3>
+                    </div>
+                    <div class="col-md-4 col-xs-4" style="text-align: right;">
+                        <a href="#" class="chat-icons"><span id="minim_chat_window" class="glyphicon glyphicon-minus icon_minim"></span></a>
+                        <a href="#" class="chat-icons"><span class="glyphicon glyphicon-remove icon_close" id="removeClass" data-id="chat_window_1"></span></a>
+                    </div>
+                </div>
+                <div class="panel-body msg_container_base" id="chat-msg-board">
+
+                </div>
+                <div class="panel-footer">
+                    <div class="input-group">
+                        <input id="btn-input" type="text" class="form-control input-sm chat_input" placeholder="Write your message here..." />
+                        <span class="input-group-btn">
+                            <button class="btn btn-primary btn-sm" id="btn-chat">Send</button>
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+
+if(sessionStorage.getItem( 'chat-storage' )==null){
+    $("#chat-msg-board").append("<div class='row msg_container base_receive'><div class='col-md-2 col-xs-2 avatar'><img src='/scripts/Chatbot/img/dxm.png' class='img-responsive'></div><div class='col-md-10 col-xs-10'><div class='messages msg_receive'><p>Hello! Welcome to DXM Store. How may I help you?.</p></div></div></div>");
+     }else{
+     $("#chat-msg-board").append(sessionStorage.getItem( 'chat-storage' ));
+    }
+    $('#chat-msg-board').animate({scrollTop: $('#chat-msg-board').prop("scrollHeight")}, 500);
+</script>

@@ -1,0 +1,60 @@
+﻿---
+ID: "9df1603e-d4f0-4194-8900-2c8d607c2a4c"
+Parent: "73c59589-2bc6-4200-a631-7bac9d33ae64"
+Template: "94a8c8e9-690b-4e65-98e7-f95800222767"
+Path: /sitecore/content/Habitat/NewHome/Services/AMC
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{3CDF4DD8-28A4-4185-8C09-A73CAA4633F7}"
+          s:ds="{DE50C7E4-801A-469C-950E-FA29100B5DE7}"
+          s:par="" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: AMC
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170316T101157Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{A8F38E6E-B43C-4466-AB47-D48E017E8FEE}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "Annual Maintenance Contract(AMC) &nbsp;. Interested ?"
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: AMC
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: "Services - SmartLife"
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <h1 style="color: #333333; background-color: #ffffff; margin-right: 0px; margin-left: 0px;" class="h1class">Annual Maintenance Contract</h1>
+        <p style="color: #333333; background-color: #ffffff; margin-bottom: 10px;">You as our esteemed customer can rest assured that even after the expiry of warranty period of the appliance, you will continue to enjoy the same care and benefits through this plan which will safeguard you against uncertainty and inconvenience.</p>
+        <h4 style="color: #333333; background-color: #ffffff;" class="h4">Saves from unexpected high repair cost:</h4>
+        <p style="color: #333333; background-color: #ffffff; margin-bottom: 10px;">All the major operational parts( No matter ,how costly they are) &amp; Labor charges are covered under our plan (<em>These Extra-ordinary benefits comes to you at amazingly nominal cost, varying from $. 20 per day to $. 60 per day</em>).</p>
+        <h4 style="color: #333333; background-color: #ffffff;" class="h4">Genuine Spare Parts</h4>
+        <p style="color: #333333; background-color: #ffffff; margin-bottom: 10px;">We only use company approved parts because you have every right to expect the best.</p>
+        <h4 style="color: #333333; background-color: #ffffff;" class="h4">Maintenance Bonus</h4>
+        <p style="color: #333333; background-color: #ffffff; margin-bottom: 10px;">We also reward our consumers who take extra care of their appliance by providing bonus coverage period upon the renewal of their plans.</p>

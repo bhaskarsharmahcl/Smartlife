@@ -1,0 +1,53 @@
+﻿@using PageContent = Sitecore.Feature.PageContent
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Foundation.Dictionary.Extensions
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Feature.Product
+@using Sitecore.Resources.Media
+@model Sitecore.Feature.Product.Models.Products
+
+@{
+    var catIndex = 1;
+    var datafilter = ".type";
+}
+
+<ul class="product-filter text-center">
+    <li><a class="btn btn-default active" href="#" data-filter="*">All Products</a></li>
+
+    @foreach (var category in Model.ProductCategories)
+    {
+        { datafilter = ".type" + @catIndex; }
+        <li><a class="btn btn-default" href="#" data-filter="@datafilter">@Html.Sitecore().Field(Templates.HasPageContent.Fields.Title, category) </a></li>
+        { catIndex = catIndex + 1; }
+    }
+</ul>
+
+<div class="row">
+    <div class="product-items">
+        @{catIndex = 1;         }
+        @foreach (var category in Model.ProductCategories)
+        {
+            { datafilter = "type" + @catIndex; }
+            foreach (var product in category.Children.ToArray())
+            {
+                <div class="product-item @datafilter col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        @Html.Sitecore().ImageField(Templates.HasPageContent.Fields.Image, product, mw: 500, cssClass: "img-responsive")
+
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">@Html.Sitecore().Field(Templates.HasPageContent.Fields.Title, product)</a></h3>
+                                @Html.Sitecore().Field(Templates.HasPageContent.Fields.Summary, product)                                
+                                <a class="preview" href="@product.Url()"><i class="fa fa-eye"></i> @Html.Sitecore().Dictionary("/Products/Read more", "Read more")</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+            { catIndex = catIndex + 1; }
+        }
+
+    </div>
+</div>
+
+

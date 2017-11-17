@@ -1,0 +1,81 @@
+﻿---
+ID: "05b4e0e3-909c-4040-829d-e69b59b67c9d"
+Parent: "73c59589-2bc6-4200-a631-7bac9d33ae64"
+Template: "94a8c8e9-690b-4e65-98e7-f95800222767"
+Path: /sitecore/content/Habitat/NewHome/Services/Energy Saving Tips
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{3CDF4DD8-28A4-4185-8C09-A73CAA4633F7}"
+          s:ds="{8A7E2DB1-8E3D-41AD-A46F-6F6DBF9D272B}"
+          s:par="" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Energy Saving Tips
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170316T101058Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{0EED73B0-6E25-4313-B123-D585FEC1DB64}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "Easy ways to start saving energy today. Lets start saving !"
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Energy Saving Tips
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: "Services - SmartLife"
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p><strong><span style="color: #a3cb2a;">Air Conditioning Energy Conservation Tips</span></strong></p>
+        <p><strong><span style="color: #a3cb2a;"></span></strong><span style="text-align: justify; color: #333333;">If you have air conditioning -- either Air cooled or water air conditioners -- up to&nbsp;</span><strong style="color: #333333; text-align: justify;">20%</strong><span style="text-align: justify; color: #333333;">&nbsp;of your electric bill may be going towards cooling your business.</span><span style="text-align: justify; color: #333333;">Reducing the amount of&nbsp;</span><span style="text-align: justify; color: #333333;">heat in your business and managing your air conditioning use will lower those costs.</span><span style="text-align: justify; color: #333333;">&nbsp;</span></p>
+        <ul style="list-style-type: disc;">
+            <li style="color: #333333; text-align: justify;"><strong><span>Control humidity.</span></strong><span>&nbsp;Dry air is easier to cool than humid air. Use the exhausts fan to remove excess humidity.</span></li>
+            <li style="color: #333333; text-align: justify;"><strong><span>Set the thermostat on your air conditioner as high as comfortably possible.</span></strong><span>&nbsp;The less difference between the indoor and outdoor temperatures, the lower the overall cooling bill will be. Between 1 and 2% of cooling costs can be saved for every degree Fahrenheit the thermostat is raised.</span></li>
+            <li style="color: #333333; text-align: justify;"><strong><span>Save as much as 10% a year on your cooling bills by simply turning your thermostat back 10% to 15% for 8 hours.</span></strong><span>&nbsp;Use the automatic setback or programmable thermostat on your air conditioner.</span></li>
+            <li style="color: #333333; text-align: justify;"><strong><span>Clean filters help keep the air conditioning unit in good working condition.</span></strong><span>&nbsp;Dirty filters reduce the efficiency of the air conditioner.</span></li>
+        </ul>
+        <p><strong><span style="color: #a3cb2a;">Laundry Room Energy Conservation Tips</span></strong></p>
+        <p style="margin-bottom: 0.0001pt; text-align: justify;"><span style="color: #333333;">Save Up To 50% on Energy Costs In The Laundry Room</span></p>
+        <p style="margin-bottom: 0.0001pt; text-align: justify;"><span style="color: #333333;"></span></p>
+        <ul style="list-style-type: disc;">
+            <li style="color: #333333; text-align: justify;"><strong><span>Wash in cold water.</span></strong><span>&nbsp;Today's laundry detergents are made to clean clothes in cold water. The majority of energy used for washing clothes comes from heating water. Use hot water only for very dirty clothes and always use cold water for rinsing.&nbsp;<strong>Save 4%.</strong></span></li>
+            <li style="color: #333333; text-align: justify;"><strong><span>Wash full loads.&nbsp;</span></strong><span>It takes approximately the same amount of energy to wash a small load as it does a full load. Sort and organize your laundry for full loads, saving both energy and water.</span></li>
+            <li style="color: #333333; text-align: justify;"><strong><span>Don't overload the washer and dryer.</span></strong><span>&nbsp;Your clothes may not get clean and may need to be washed again. Overloading dryers uses excess energy because items take longer to dry. Always use a surge protector on your appliances.</span></li>
+            <li style="color: #333333; text-align: justify;"><strong>Clean the lint from the clothes dryer after every load.</strong>&nbsp;The efficiency of the dryer goes down when lint collects over the dryer filter. Run full loads and use the moisture-sensing setting.&nbsp;<strong>Save 5%</strong>&nbsp;on your electric bill.</li>
+            <li style="color: #333333; text-align: justify;"><strong>Presoak or use the soak cycle</strong>&nbsp;when washing heavily soiled garments. You will avoid two washings and save energy.</li>
+            <li style="color: #333333; text-align: justify;"><strong><span>Keep the clothes dryer's outside exhaust clean.</span></strong><span>&nbsp;A clogged exhaust lengthens drying time and increases energy use.</span></li>
+        </ul>
+        <p><strong><span style="color: #a3cb2a;">Refrigerator Energy Conservation Tips</span></strong></p>
+        <p style="margin-bottom: 0.0001pt; text-align: justify;"><span style="color: #333333;">The average commercial refrigerator uses approximately 600w to 1500w of electrical energy. The amount of energy used can be greatly reduced by practicing good conservation techniques.</span></p>
+        <ul style="list-style-type: disc;">
+            <li style="color: #333333; text-align: justify;"><strong>Minimize door openings as much as possible.</strong>&nbsp;Cool air escapes every time the refrigerator door is opened. The unit then works harder to replace the air. Keep the door open no longer than necessary and be sure to close the door completely.</li>
+            <li style="color: #333333; text-align: justify;"><strong><span>Allow hot foods to cool before placing them in the refrigerator.</span></strong><span>&nbsp;Hot food decreases the temperature in the refrigerator temporarily forcing the refrigerator to work harder to keep the air cool.</span></li>
+            <li style="color: #333333; text-align: justify;"><strong><span>Do not overfill your refrigerator or freezer</span></strong><span>&nbsp;since that will interfere with the circulation of cold air inside.</span></li>
+            <li style="color: #333333; text-align: justify;"><strong><span>Check door seals (also called the gasket) on the refrigerator.</span></strong><span>&nbsp;A broken seal is the same as leaving the door open. Replace seals that are torn or partially missing. To test it, close the door on a single sheet of paper and try to pull it out. If it slides out easily, the gasket needs to be replaced to prevent cold air from leaking out, or consider buying a new unit.</span></li>
+            <li style="color: #333333; text-align: justify;"><strong><span>Avoid blocking the air flow passages to and from the condenser coils.</span></strong><span>&nbsp;Cleaning the condenser coils will save energy and help the refrigerator run better and more efficiently. The condenser coils ( hot coils ) should be cleaned once a year. If you have a pet with long hair, it is a good idea to clean coils every 6 months.</span></li>
+            <li style="color: #333333; text-align: justify;"><strong><span>Regularly defrost manual-defrost models.</span></strong><span>&nbsp;Frost buildup increases the amount of energy needed to keep the motor running. Avoid excessive ice build-up on the interior surfaces of the evaporator.</span></li>
+        </ul>

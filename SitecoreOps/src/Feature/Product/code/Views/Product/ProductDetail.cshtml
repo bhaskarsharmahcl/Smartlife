@@ -1,0 +1,105 @@
+﻿@using PageContent = Sitecore.Feature.PageContent
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Foundation.Dictionary.Extensions
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Feature.Product
+@using Sitecore.Resources.Media
+@model Sitecore.Feature.Product.Models.ProductDetail
+
+<section class="product-detail">
+    <div>
+        <div class="center wow fadeInDown">
+            <h2>@Html.Sitecore().Field(PageContent.Templates.HasPageContent.Fields.Title, Model.ProductItem)</h2>
+          
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-5">
+                <div class="recent-work-wrap">
+                    @Html.Sitecore().ImageField(Templates.Product.Fields.ProductImage, Model.ProductItem, mw: 500, cssClass: "img-responsive")
+                    @{
+                        var imageUrl = Model.ProductItem.ImageUrl(Templates.Product.Fields.ProductLargeImage, new MediaUrlOptions());
+                        if (string.IsNullOrEmpty(imageUrl))
+                        {
+                            imageUrl = Model.ProductItem.ImageUrl(Templates.Product.Fields.ProductImage, new MediaUrlOptions());
+                        }
+                    }
+                    <a class="preview" href="@imageUrl" rel="prettyPhoto"><i class="fa fa-eye"></i>@Html.Sitecore().Dictionary("/Product/ProductDetail/View", "View")</a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-7 product-detail">
+                <h3>@Html.Sitecore().Field(Templates.Product.Fields.ProductTitle, Model.ProductItem)</h3>
+                <p class="lead">
+                    @Html.Sitecore().Field(Templates.Product.Fields.ShortDescription, Model.ProductItem)
+                </p>
+                <div>
+                    <div><b>Price: </b><span class="old-price">@Html.Sitecore().Field(Templates.Product.Fields.Price, Model.ProductItem)</span>&nbsp;<span class="new-price">@Html.Sitecore().Field(Templates.Product.Fields.DiscountedPrice, Model.ProductItem)</span></div>
+                    <div class="spl-txt">@Html.Sitecore().Field(Templates.Product.Fields.Shipping, Model.ProductItem)</div>
+                </div>
+                <div><h3>@Html.Sitecore().Dictionary("/Product/ProductDetail/Rating", "Rating") : </h3>@Html.Sitecore().Field(Templates.Product.Fields.Rating, Model.ProductItem)</div>
+                <hr />
+                <div class="product-tools">
+                    <div class="btn btn-default active"><i class="fa fa-shopping-cart"></i> Add to Cart</div>
+                    <div class="btn btn-default ">Add to Registry</div>
+                </div>
+                <div><h3>@Html.Sitecore().Dictionary("/Product/ProductDetail/Reviews", "Reviews")</h3></div>
+                @Html.Sitecore().Field(Templates.Product.Fields.Reviews, Model.ProductItem)
+                
+            </div>
+        </div>
+        <div id="prd_dtls" class="prd-details spacer-v">
+            <ul class="nav nav-pills horizontal-tabs">
+                @{
+                    var activeTabSet = true;
+                }
+                @if (Html.Sitecore().HasValue(Templates.Product.Fields.Features.ToString()))
+                {
+                    <li class="@(activeTabSet == true ? "active" : "")">
+                        <a href="#1a" data-toggle="tab">@Html.Sitecore().Dictionary("/Product/ProductDetail/Features", "Features")</a>
+                    </li>
+                    activeTabSet = false;
+                }
+                @if (Html.Sitecore().HasValue(Templates.Product.Fields.Specification.ToString()))
+                {
+                    <li class="@(activeTabSet == true ? "active" : "")">
+                        <a href="#2a" data-toggle="tab">@Html.Sitecore().Dictionary("/Product/ProductDetail/Specifications", "Specifications")</a>
+                    </li>
+                    activeTabSet = false;
+                }
+                @if (Html.Sitecore().HasValue(Templates.Product.Fields.Description.ToString()))
+                {
+                    <li class="@(activeTabSet == true ? "active" : "")">
+                        <a href="#3a" data-toggle="tab">@Html.Sitecore().Dictionary("/Product/ProductDetail/Description", "Description")</a>
+                    </li>
+                    activeTabSet = false;
+                }
+            </ul>
+            <div class="tab-content clearfix">
+                @{
+                    activeTabSet = true;
+                }
+                @if (Html.Sitecore().HasValue(Templates.Product.Fields.Features.ToString()))
+                {
+                    <div class="tab-pane @(activeTabSet == true ? "active" : "")" id="1a">
+                        @Html.Sitecore().Field(Templates.Product.Fields.Features, Model.ProductItem)
+                    </div>
+                    activeTabSet = false;
+                }
+                @if (Html.Sitecore().HasValue(Templates.Product.Fields.Specification.ToString()))
+                {
+                    <div class="tab-pane @(activeTabSet == true ? "active" : "")" id="2a">
+                        @Html.Sitecore().Field(Templates.Product.Fields.Specification, Model.ProductItem)
+                    </div>
+                    activeTabSet = false;
+                }
+                @if (Html.Sitecore().HasValue(Templates.Product.Fields.Description.ToString()))
+                {
+                    <div class="tab-pane @(activeTabSet == true ? "active" : "")" id="3a">
+                        @Html.Sitecore().Field(Templates.Product.Fields.Description, Model.ProductItem)
+                    </div>
+                    activeTabSet = false;
+                }
+            </div>
+        </div>
+        <hr />
+    </div>
+</section>

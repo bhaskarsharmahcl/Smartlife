@@ -1,0 +1,33 @@
+﻿---
+ID: "574e1dcf-4aa6-444b-b856-1820ba7513e5"
+Parent: "ad073826-4539-4e59-8376-47ff4b12cf37"
+Template: "955c7889-308c-44e6-8edb-3b2441f7d8e3"
+Path: /sitecore/content/Habitat/Global/Services/Product Warranty Information
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170406T095642Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{AD6F7BC0-46C6-4B6F-8D22-E745CA7277DD}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: |
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut<br />
+        et dolore magna aliqua. Ut enim ad minim veniam
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Product Warranty Information
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: Product Warranty Information

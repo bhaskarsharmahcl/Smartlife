@@ -1,0 +1,96 @@
+﻿---
+ID: "31f1dc36-c0b4-4deb-a2e5-cc99622caf02"
+Parent: "0a165175-80f7-4d74-abfe-1e8371df0761"
+Template: "8ee208f9-a6a6-41e2-88a0-c188737a178c"
+Path: /sitecore/content/Habitat/NewHome/Featured Product_Old
+DB: master
+SharedFields:
+- ID: "5585a30d-b115-4753-93ce-422c3455deb2"
+  Hint: ShowInNavigation
+  Type: Checkbox
+  Value: 0
+- ID: "68016087-aa00-45d6-922a-678475c50d4a"
+  Hint: ShowChildren
+  Type: Checkbox
+  Value: 0
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1F35F5FC-44FC-403E-AC8F-998EE877D78E}"
+          p:after="r[@uid='{79AB2261-81EA-4D77-995C-E31D4142878B}']"
+          s:ds=""
+          s:id="{695CEE74-D8F4-481D-B813-237050809290}"
+          s:par=""
+          s:ph="/page-layout/section/col-huge" />
+        <r
+          uid="{7CA4EF16-FDBB-4DD4-8ACC-72DC0030DB3C}"
+          p:after="r[@uid='{1F35F5FC-44FC-403E-AC8F-998EE877D78E}']"
+          s:ds="{4E29A6F5-35BF-4416-8385-5CC1675AF116}"
+          s:id="{695CEE74-D8F4-481D-B813-237050809290}"
+          s:par=""
+          s:ph="/page-layout/section/col-huge1" />
+        <r
+          uid="{4F310A71-1D54-4E30-B367-4CA436808113}"
+          p:after="r[@uid='{7CA4EF16-FDBB-4DD4-8ACC-72DC0030DB3C}']"
+          s:ds="{8AD6E8D2-D099-42D2-BF9F-F2BF466352D6}"
+          s:id="{695CEE74-D8F4-481D-B813-237050809290}"
+          s:par=""
+          s:ph="/page-layout/section/col-huge1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{1F35F5FC-44FC-403E-AC8F-998EE877D78E}"
+              s:mvt="{1217207F-DD87-407B-9B15-896A8AD3CDAF}" />
+            <r
+              uid="{C2A23C81-3199-466E-88B8-722560450823}"
+              s:par="Background={6A2EED97-1642-43A3-827E-427D6013FDBE}&amp;Background Image&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames=1" />
+            <r
+              uid="{BA8C9C36-A615-41F3-8B01-E1AF85DF22C5}"
+              s:par="Background={6A2EED97-1642-43A3-827E-427D6013FDBE}&amp;Background Image&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames=1" />
+            <r
+              uid="{A6875AB1-505D-4D47-805F-70BB0E8D5346}"
+              s:par="Background={2E6F5F32-6948-44CE-93E9-1ABAAD9C5917}&amp;Background Image&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames=1" />
+          </d>
+        </r>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Featured Product
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170314T114429Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: |
+        <img alt="" src="-/media/BA494A950B02498AAC1D5A40F4BAF8A3.ashx" width="500" height="378" /><br />HIGH-EFFICIENCY INDOOR LIQUID SCREW CHILLER<br />The SmartLife AquaChill units are high-efficiency, indoor water-cooled chillers. The units have a quiet, low-vibration design featuring screw compressors. These chillers are compact enough to fit through a standard door, making them great replacement units.<br /><p><a href="-/media/328C5AD5F0AF48AC8CCF568BBC823444.ashx">Download brochure</a></p>
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: "HIGH-EFFICIENCY INDOOR LIQUID SCREW CHILLER"
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Featured Product

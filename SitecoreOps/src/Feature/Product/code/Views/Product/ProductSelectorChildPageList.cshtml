@@ -1,0 +1,38 @@
+﻿@using Sitecore.Feature.Product
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Foundation.Alerts
+@using Sitecore.Foundation.Alerts.Extensions
+@using Sitecore.Foundation.Dictionary.Extensions
+@using Sitecore.Foundation.SitecoreExtensions.Repositories
+@using Sitecore.Feature.Product.Repositories
+@model Sitecore.Mvc.Presentation.RenderingModel
+@if (!Model?.Item?.IsDerived(Templates.HasProductSelector.ID) ?? true)
+{
+    @Html.PageEditorError(AlertTexts.InvalidDataSourceTemplate(Templates.HasProductSelector.ID), AlertTexts.InvalidDataSourceTemplateFriendlyMessage, Model.Item?.ID, Model.Rendering.Item?.ID)
+    return;
+}
+@{
+    var carouselId = "carousel" + Guid.NewGuid().ToString("N");
+    var elements = ProductSelectorElementsRepository.Get(Model.Item).ToArray();
+    const int DefaultColumns = 4;
+    var numColumns = elements.Length >= DefaultColumns ? DefaultColumns : (elements.Length <= 2 ? 2 : elements.Length);
+
+}
+
+<div class="row">
+    @foreach (var element in elements)
+            {
+        <div class="col-xs-12 col-sm-3">
+            <div class="recent-work-wrap">
+                @Html.Sitecore().ImageField(Templates.HasPageContent.Fields.Image, element.Item, mw: 500, cssClass: "img-responsive")
+                <div class="overlay">
+                    <div class="recent-work-inner">
+                        <h3><a href="#">@Html.Sitecore().Field(Templates.HasPageContent.Fields.Title, element)</a> </h3>
+                        @Html.Sitecore().Field(Templates.HasPageContent.Fields.Summary, element)
+                        <a class="preview" href="@element.Item.Url()"><i class="fa fa-eye"></i> @Html.Sitecore().Dictionary("/PageContent/Teaser/Read more", "Read more")</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

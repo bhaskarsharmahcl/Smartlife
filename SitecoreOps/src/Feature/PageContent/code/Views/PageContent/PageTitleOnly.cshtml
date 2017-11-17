@@ -1,0 +1,15 @@
+﻿@using Sitecore.Feature.PageContent
+@using Sitecore.Foundation.Alerts
+@using Sitecore.Foundation.Alerts.Extensions
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@model Sitecore.Mvc.Presentation.RenderingModel
+@if (!Model?.Item?.IsDerived(Templates.HasPageContent.ID) ?? true)
+{
+    @Html.PageEditorError(AlertTexts.InvalidDataSourceTemplate(Templates.HasPageContent.ID), AlertTexts.InvalidDataSourceTemplateFriendlyMessage, Model.Item?.ID, Model.Rendering.Item?.ID)
+    return;
+}
+<div class="container">
+    <div class="center wow fadeInDown">
+        <h2>@Html.Sitecore().Field(Templates.HasPageContent.Fields.Title, Model.Item)</h2>
+    </div>
+</div>

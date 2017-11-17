@@ -1,0 +1,234 @@
+﻿---
+ID: "6653f2c3-62b7-47e8-bb5a-149ed32f7e98"
+Parent: "6383defc-59f2-4f91-9ee5-f466481b1194"
+Template: "c5b8584b-a263-4169-aea1-2ff6a1cff371"
+Path: "/sitecore/content/Habitat/NewHome/Products/Refrigerator/Roll-In Freezer"
+DB: master
+SharedFields:
+- ID: "0be11d55-96e6-408a-be0e-83836db67232"
+  Hint: "Product-Image"
+  Value: |
+    <image mediaid="{458C7480-0A7A-49F4-9450-283713614F7A}" />
+- ID: "4b517cb2-ab6e-4512-bec3-943778e02bb2"
+  Hint: "Product-Large-Image"
+  Value: |
+    <image mediaid="{458C7480-0A7A-49F4-9450-283713614F7A}" />
+- ID: "77c15b3e-ba56-4719-843d-c0bbae6cc215"
+  Hint: Rating
+  Value: |
+    <img alt="" height="16" width="81" src="-/media/6A25D536294E4D2CBC9DC1D12F7680E9.ashx" />
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{F6A127BF-798B-4D69-BF2E-4101FE129EA9}"
+        name="NewSmartAppliancesProfile"
+        presets="roll-in-freezerprofilecard-persona|100||">
+        <key
+          name="AirCooledChillerProfileKey"
+          value="0" />
+        <key
+          name="RoofTopProfileKey"
+          value="0" />
+        <key
+          name="WaterCooledChillerProfileKey"
+          value="0" />
+        <key
+          name="DefreezerProfileKey"
+          value="0" />
+        <key
+          name="Roll-In-FreezerProfileKey"
+          value="1" />
+        <key
+          name="undercounterProfileKey"
+          value="0" />
+        <key
+          name="OnPremisesDryerProfileKey"
+          value="0" />
+        <key
+          name="OnPremisesWasherProfileKey"
+          value="0" />
+        <key
+          name="WasherExtractorProfileKey"
+          value="0" />
+      </profile>
+      <profile
+        id="{897E0D6D-31D0-4DA2-8684-27ACD96A7330}"
+        name="Smartlifeappliances-Category-Profile"
+        presets="referigerator-profilecard-persona|100||">
+        <key
+          name="AC"
+          value="0" />
+        <key
+          name="Referigerator"
+          value="1" />
+        <key
+          name="WashingMachine"
+          value="0" />
+      </profile>
+    </tracking>
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{96E1EB15-874D-4F31-A57A-5425F881520B}"
+          s:ds="{6653F2C3-62B7-47E8-BB5A-149ED32F7E98}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d4a62ee-bf47-4fbe-b35a-55631cced460"
+      Hint: Features
+      Value: |
+        <div>
+        <div class="fnt17_m bo1 m20_m read_more_ie_348" id="cat_desc10" style="height: 338px;"><strong>Features:</strong><br />
+        <br />
+        <ul>
+            <li>Robust construction for heavy duty use</li>
+            <li>Corrosion resistant body made of pre-coated sheet</li>
+            <li>Tropicalised for high subcontinental ambients</li>
+            <li>Lockable lid</li>
+            <li>Twin door larger capacity models to avoid cooling loss</li>
+            <li>Heavy duty castors</li>
+            <li>Recessed handle for single door models</li>
+            <li>High density PUF insulation for better holding time</li>
+            <li>High energy efficient compressor</li>
+            <li>Auxiliary condensers for faster pull down</li>
+            <li>Indicator for power and compressor function</li>
+            <li>Low emission imported glass for better hold time</li>
+            <li>Inside door light in single door models</li>
+            <li>Capacities: 97 l to 500 l</li>
+        </ul>
+        <div><strong class="cp ds1 bo4"><br />
+        </strong></div>
+        <p>&nbsp;</p>
+        </div>
+        </div>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: "SmartLife Roll-In Freezer"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170316T090724Z
+    - ID: "398aaabe-2e1a-4e7c-a4a6-0f7afc544d93"
+      Hint: Description
+      Value: "SmartLife  Line Series Freezer, Roll-in, two-section, 76.34 cubic feet, self-contained refrigeration 404A, digital thermometer, built-in door locks, recessed metal door handle, pressure relief valve, solid hinged full height door, solid hinged full height door, stainless steel exterior &amp; aluminum interior, top mounted compressor, cUL, UL, NSF, 1 hp"
+    - ID: "40d24aa7-4aaf-48c1-86bb-b0f00c3dc525"
+      Hint: Discounted Price
+      Value: $700.00
+    - ID: "527bcbf8-a38c-4393-8d9d-88189d0c84eb"
+      Hint: Product Sub Title
+      Value: 
+    - ID: "71d65caf-388f-4a54-b386-5c0cafc6cde1"
+      Hint: Shipping
+      Value: Free Shipping
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{14D1A20F-E0FE-4D7A-8731-3181F7D3D847}"></image>
+    - ID: "9d615e6c-6493-4a5a-9f15-27adf03ea198"
+      Hint: Price
+      Value: $751.21
+    - ID: "a7a9e7db-2d07-4600-ba59-19b75984d982"
+      Hint: Specification
+      Value: |
+        <table class="table table-condensed table-specifications" style="color: #333333; background-color: #ffffff; width: 523px; border-spacing: 0px;">
+            <thead>
+                <tr>
+                    <th colspan="2" style="color: #464646; padding: 9px 0px 15px; border-bottom: 0px;">Specs</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background-color: #eeeeee;">
+                    <th style="padding-left: 10px; border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd; border-left-color: #dddddd; border-left-style: solid;">Brand</th>
+                    <td style="padding-left: 10px; border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd; border-left-color: #dddddd; border-left-style: solid; text-align: left;">Delfield</td>
+                </tr>
+                <tr>
+                    <th style="padding-left: 10px; border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd; border-left-color: #dddddd; border-left-style: solid;">Refrigerant Type</th>
+                    <td style="padding-left: 10px; border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd; border-left-color: #dddddd; border-left-style: solid; text-align: left;">404A</td>
+                </tr>
+                <tr style="background-color: #eeeeee;">
+                    <th style="padding-left: 10px; border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd; border-left-color: #dddddd; border-left-style: solid;">Condenser</th>
+                    <td style="padding-left: 10px; border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd; border-left-color: #dddddd; border-left-style: solid; text-align: left;">Self-Contained condenser</td>
+                </tr>
+                <tr>
+                    <th style="padding-left: 10px; border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd; border-left-color: #dddddd; border-left-style: solid;">Interior Finish</th>
+                    <td style="padding-left: 10px; border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd; border-left-color: #dddddd; border-left-style: solid; text-align: left;">Aluminum</td>
+                </tr>
+                <tr style="background-color: #eeeeee;">
+                    <th style="padding-left: 10px; border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd; border-left-color: #dddddd; border-left-style: solid;">Valve</th>
+                    <td style="padding-left: 10px; border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd; border-left-color: #dddddd; border-left-style: solid; text-align: left;">Pressure relief</td>
+                </tr>
+                <tr>
+                    <th style="padding-left: 10px; border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd; border-left-color: #dddddd; border-left-style: solid;">Exterior Finish</th>
+                    <td style="padding-left: 10px; border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd; border-left-color: #dddddd; border-left-style: solid; text-align: left;">Stainless Steel</td>
+                </tr>
+                <tr style="background-color: #eeeeee;">
+                    <th style="padding-left: 10px; border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd; border-left-color: #dddddd; border-left-style: solid;">Capacity</th>
+                    <td style="padding-left: 10px; border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd; border-left-color: #dddddd; border-left-style: solid; text-align: left;">76.34 Cubic Feet</td>
+                </tr>
+                <tr>
+                    <th style="padding-left: 10px; border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd; border-left-color: #dddddd; border-left-style: solid;">Compressor Type</th>
+                    <td style="padding-left: 10px; border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd; border-left-color: #dddddd; border-left-style: solid; text-align: left;">Top Mounted</td>
+                </tr>
+                <tr style="background-color: #eeeeee;">
+                    <th style="padding-left: 10px; border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd; border-left-color: #dddddd; border-left-style: solid;">Sections</th>
+                    <td style="padding-left: 10px; border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd; border-left-color: #dddddd; border-left-style: solid; text-align: left;">2</td>
+                </tr>
+                <tr>
+                    <th style="padding-left: 10px; border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd; border-left-color: #dddddd; border-left-style: solid;">Width (in)</th>
+                    <td style="padding-left: 10px; border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd; border-left-color: #dddddd; border-left-style: solid; text-align: left;">66.00</td>
+                </tr>
+                <tr style="background-color: #eeeeee;">
+                    <th style="padding-left: 10px; border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd; border-left-color: #dddddd; border-left-style: solid;">Height (in)</th>
+                    <td style="padding-left: 10px; border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd; border-left-color: #dddddd; border-left-style: solid; text-align: left;">90.00</td>
+                </tr>
+                <tr>
+                    <th style="padding-left: 10px; border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd; border-left-color: #dddddd; border-left-style: solid;">Depth (in)</th>
+                    <td style="padding-left: 10px; border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd; border-left-color: #dddddd; border-left-style: solid; text-align: left;">34.00</td>
+                </tr>
+                <tr style="background-color: #eeeeee;">
+                    <th style="padding-left: 10px; border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd; border-left-color: #dddddd; border-left-style: solid;">Weight</th>
+                    <td style="padding-left: 10px; border-right: 1px solid #dddddd; border-bottom: 1px solid #dddddd; border-left-color: #dddddd; border-left-style: solid; text-align: left;">824.00<br />
+                    <br />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: The SmartLife Line Series Freezer's dual temperature capability and room to reach in makes it a perfect match for commercial kitchens.
+    - ID: "bb7a38c0-323c-4f81-8eb9-288abf7c4638"
+      Hint: MetaDescription
+      Value: "SmartLife Roll-In Freezer"
+    - ID: "c236fb11-ab2f-42a7-92a7-09a9258e2637"
+      Hint: Product Title
+      Value: "SmartLife Two Section Roll-In Freezer"
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: "SmartLife Roll-In Freezer"
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: "SmartLife Roll-In Freezer"
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: 
+    - ID: "de1430c5-291b-40c2-ad2d-709efbb7360a"
+      Hint: Short Description
+      Value: "This SmartLife SmartLife Series Freezer comes with a top mounted compressor. This dual temp reach-in is 90 inches tall, 66 inches wide, and 34 inches deep.Its dual temp reach-in's interior and exterior finish is stainless steel. It also comes equipped with a self-contained condenser. Arguably its best feature, this item has a capacity of 76.34 cubic feet."
+    - ID: "fdc46723-8fd1-44c0-9938-c7bc00a81768"
+      Hint: Reviews
+      Value: |
+        <div class="review-clip" style="color: #4e4e4e; background-color: #ffffff;"><strong>Olivia I Byrd</strong> on 12/12/2016 (09:50hrs)
+        <p style="margin-bottom: 10px;"><span style="background-color: #ffffff; color: #111111;">Product is exactly as described. We've had it over a month and works fine. Measure then re-measure your door openings prior to purchasing. The fridge JUST made it through our entry doors.</span>....&nbsp;<a href="http://sitecorehabitat/Products/Product-2#" style="color: #c52d2f; background: none;">&raquo;</a></p>
+        </div>

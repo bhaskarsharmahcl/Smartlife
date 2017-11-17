@@ -1,0 +1,233 @@
+﻿---
+ID: "b05aa294-bb73-48b1-a2b0-1fbce30d968a"
+Parent: "6383defc-59f2-4f91-9ee5-f466481b1194"
+Template: "c5b8584b-a263-4169-aea1-2ff6a1cff371"
+Path: "/sitecore/content/Habitat/NewHome/Products/Refrigerator/FrenchDoor-In-Door"
+DB: master
+SharedFields:
+- ID: "0be11d55-96e6-408a-be0e-83836db67232"
+  Hint: "Product-Image"
+  Value: |
+    <image mediaid="{A6325180-5488-466B-9A11-9FDD479BD629}" />
+- ID: "4b517cb2-ab6e-4512-bec3-943778e02bb2"
+  Hint: "Product-Large-Image"
+  Value: |
+    <image mediaid="{A6325180-5488-466B-9A11-9FDD479BD629}" />
+- ID: "77c15b3e-ba56-4719-843d-c0bbae6cc215"
+  Hint: Rating
+  Value: |
+    <img alt="" height="19" width="83" src="-/media/CED4F0DCD14F4DCF8C4ACB50FE69B584.ashx" />
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{F6A127BF-798B-4D69-BF2E-4101FE129EA9}"
+        name="NewSmartAppliancesProfile"
+        presets="undercounterprofilecard-persona|100||">
+        <key
+          name="AirCooledChillerProfileKey"
+          value="0" />
+        <key
+          name="RoofTopProfileKey"
+          value="0" />
+        <key
+          name="WaterCooledChillerProfileKey"
+          value="0" />
+        <key
+          name="DefreezerProfileKey"
+          value="0" />
+        <key
+          name="Roll-In-FreezerProfileKey"
+          value="0" />
+        <key
+          name="undercounterProfileKey"
+          value="1" />
+        <key
+          name="OnPremisesDryerProfileKey"
+          value="0" />
+        <key
+          name="OnPremisesWasherProfileKey"
+          value="0" />
+        <key
+          name="WasherExtractorProfileKey"
+          value="0" />
+      </profile>
+      <profile
+        id="{897E0D6D-31D0-4DA2-8684-27ACD96A7330}"
+        name="Smartlifeappliances-Category-Profile"
+        presets="referigerator-profilecard-persona|100||">
+        <key
+          name="AC"
+          value="0" />
+        <key
+          name="Referigerator"
+          value="1" />
+        <key
+          name="WashingMachine"
+          value="0" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d4a62ee-bf47-4fbe-b35a-55631cced460"
+      Hint: Features
+      Value: |
+        <div class="input-group type-radio" data-type="radio" data-name="Refrigeration" data-title="Refrigerator, Undercounter, Reach-In options" data-form-def-val-id="fabf7398-6000-46b4-8c20-6f466ef668a4" data-requered="1" data-form-id="36113f75-23fc-4de7-8b6b-5cec4bb2a2a2" style="color: #333333; background-color: #ffffff;">
+        <ul style="color: #333333; background-color: #ffffff; margin-right: 0px; margin-bottom: 1px; margin-left: 25px; padding: 0px;"> 
+            <li style="margin: 0px; list-style-type: disc; list-style-image: initial;">Electronic thermostat with external digital LED display for accurate control and easy reading</li>
+            <li style="margin: 0px; list-style-type: disc; list-style-image: initial;">Door-in-Door&trade;, Easy access and up to 46.5% Less cold air loss</li>
+            <li style="margin: 0px; list-style-type: disc; list-style-image: initial;">2 Separate Veg Box</li>
+            <li style="margin: 0px; list-style-type: disc; list-style-image: initial;">Hygiene Fresh+&trade;</li>
+            <li style="margin: 0px; list-style-type: disc; list-style-image: initial;">Multi Digital Sensors</li>
+            <li style="margin: 0px; list-style-type: disc; list-style-image: initial;">French Door</li>
+            <li style="margin: 0px; list-style-type: disc; list-style-image: initial;">Inverter Linear Compressor</li>
+        </ul>
+        </div>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: "SmartLife - French Door, Door-in-Door Refrigerator"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170316T090729Z
+    - ID: "398aaabe-2e1a-4e7c-a4a6-0f7afc544d93"
+      Hint: Description
+      Value: Offers smart storage for cooking ingredients and puts your family’s favorites front and center.
+    - ID: "40d24aa7-4aaf-48c1-86bb-b0f00c3dc525"
+      Hint: Discounted Price
+      Value: $2,000.00
+    - ID: "527bcbf8-a38c-4393-8d9d-88189d0c84eb"
+      Hint: Product Sub Title
+      Value: 
+    - ID: "71d65caf-388f-4a54-b386-5c0cafc6cde1"
+      Hint: Shipping
+      Value: Free Shipping
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{01A4E609-6E2A-4C86-9A86-80E070AFCC4B}"></image>
+    - ID: "9d615e6c-6493-4a5a-9f15-27adf03ea198"
+      Hint: Price
+      Value: $2,299.00
+    - ID: "a7a9e7db-2d07-4600-ba59-19b75984d982"
+      Hint: Specification
+      Value: |
+        <table>
+              <caption>HIGHLIGHTS</caption>
+              <tbody>
+                 <tr>
+                    <th scope="row">Colour</th>
+                    <td>Luminous Silver</td>
+                 </tr>
+                 <tr>
+                    <th scope="row">Capacity (Litre)</th>
+                    <td>1001</td>
+                 </tr>
+                 <tr>
+                    <th scope="row">Inverter Linear Compressor</th>
+                    <td>Yes</td>
+                 </tr>
+                 <tr>
+                    <th scope="row">Door-In-Door</th>
+                    <td>Dual Door In Door</td>
+                 </tr>
+                 <tr>
+                    <th scope="row">Hygiene Fresh+™</th>
+                    <td>Yes</td>
+                 </tr>
+                 <tr>
+                    <th scope="row">French Door</th>
+                    <td>Yes</td>
+                 </tr>
+              </tbody>
+           </table>
+        <table>
+              <caption>General Features</caption>
+              <tbody>
+                 <tr>
+                    <th scope="row">Display Type</th>
+                    <td>Touch LED</td>
+                 </tr>
+                 <tr>
+                    <th scope="row">Multi Digital Sensors</th>
+                    <td>7</td>
+                 </tr>
+                 <tr>
+                    <th scope="row">Express Freezing </th>
+                    <td>Yes</td>
+                 </tr>
+                 <tr>
+                    <th scope="row">Child Lock </th>
+                    <td>Yes</td>
+                 </tr>
+                 <tr>
+                    <th scope="row">Door alarm</th>
+                    <td>Yes</td>
+                 </tr>
+                 <tr>
+                    <th scope="row">Smart Diagnosis</th>
+                    <td>Yes</td>
+                 </tr>
+              </tbody>
+           </table>
+        <table>
+              <caption>Refrigerator</caption>
+              <tbody>
+                 <tr>
+                    <th scope="row">LED Lamp</th>
+                    <td>Yes, Left+Right+Top</td>
+                 </tr>
+                 <tr>
+                    <th scope="row">Tempered Glass Shelf</th>
+                    <td>1</td>
+                 </tr>
+                 <tr>
+                    <th scope="row">Slide Out Tempered glass shelf</th>
+                    <td>2</td>
+                 </tr>
+                 <tr>
+                    <th scope="row">Folding Shelf</th>
+                    <td>1</td>
+                 </tr>
+                 <tr>
+                    <th scope="row">Separate Veg Box</th>
+                    <td>2</td>
+                 </tr>
+                 <tr>
+                    <th scope="row">Deodorizer</th>
+                    <td>Yes</td>
+                 </tr>
+              </tbody>
+           </table>
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "22 cu. ft. counter depth french door-in-door Food Show Case Refrigerator with Metal Cooling"
+    - ID: "bb7a38c0-323c-4f81-8eb9-288abf7c4638"
+      Hint: MetaDescription
+      Value: "French Door, Door-in-Door Refrigerator"
+    - ID: "c236fb11-ab2f-42a7-92a7-09a9258e2637"
+      Hint: Product Title
+      Value: At the heart of the refrigerator is a quiet and efficient compressor. It keeps noise to a minimum and helps the environment by using less energy. And comes with a 10 year warranty. Up to 32% energy saving / 25% less noise.
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: "1000 Litres French Door, Door-in-Door Refrigerator"
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: "SmartLife - French Door, Door-in-Door Refrigerator"
+    - ID: "de1430c5-291b-40c2-ad2d-709efbb7360a"
+      Hint: Short Description
+      Value: "SmartLife French Door-in-Door&trade; offers smart storage for cooking ingredients and puts your family&rsquo;s favorites front and center. Use the cook spacing in door for condiments and frequently used items. The Family Space door gives your family easy access to snacks and drinks. And both door areas keep cold air inside the fridge to keep foods fresh."
+    - ID: "fdc46723-8fd1-44c0-9938-c7bc00a81768"
+      Hint: Reviews
+      Value: |
+        <div class="review-clip" style="color: #4e4e4e; background-color: #ffffff;"><strong>Jerry</strong>&nbsp;on 11/02/2017 (12:30hrs)
+        <p style="margin-bottom: 10px;"><span style="background-color: #ffffff; color: #111111;">Works well and good price. Bought for our club. It was delivered two days early which could have been a problem since club house is normally not attended. Fortunately I checked with the carrier that morning and was able to meet him. I had requested a phone call 24 hrs in advance. If not for that it would be 5 stars.</span>...&nbsp;<a href="http://sitecorehabitat/Products/Product-2#" style="color: #c52d2f; background: none;">&raquo;</a></p>
+        </div>
+        <div class="review-clip" style="color: #4e4e4e; background-color: #ffffff;"><strong>KG</strong>&nbsp;on 10/10/2016 (13:40hrs)
+        <p style="margin-bottom: 10px;"><span style="background-color: #ffffff; color: #111111;">Bought this for our company and love it, buying another. Plenty of room, quiet and holds a ton of employee lunch's. Looks nice and beats having multiple 18-20 cubic ft fridges all over your cafe/break room</span>. ...&nbsp;<a href="http://sitecorehabitat/Products/Product-2#" style="color: #c52d2f; background: none;">&raquo;</a></p>
+        <div>&nbsp;</div>
+        </div>

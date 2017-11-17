@@ -1,0 +1,360 @@
+﻿---
+ID: "def7cc85-09b3-4aad-92a3-43c7b8256394"
+Parent: "0275a11c-f8b8-4ac0-a76c-ca64ce58a5a8"
+Template: "c5b8584b-a263-4169-aea1-2ff6a1cff371"
+Path: /sitecore/content/Habitat/NewHome/Products/Washing Machine/OnPrem Dryer
+DB: master
+SharedFields:
+- ID: "0be11d55-96e6-408a-be0e-83836db67232"
+  Hint: "Product-Image"
+  Value: |
+    <image mediaid="{56BE2281-18EB-46FC-B3DA-0E4145161488}" />
+- ID: "4b517cb2-ab6e-4512-bec3-943778e02bb2"
+  Hint: "Product-Large-Image"
+  Value: |
+    <image mediaid="{56BE2281-18EB-46FC-B3DA-0E4145161488}" />
+- ID: "77c15b3e-ba56-4719-843d-c0bbae6cc215"
+  Hint: Rating
+  Value: |
+    <img alt="" height="19" width="83" src="-/media/CED4F0DCD14F4DCF8C4ACB50FE69B584.ashx" />
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{F6A127BF-798B-4D69-BF2E-4101FE129EA9}"
+        name="NewSmartAppliancesProfile"
+        presets="onpremisesdryerprofilecard-persona|100||">
+        <key
+          name="AirCooledChillerProfileKey"
+          value="0" />
+        <key
+          name="RoofTopProfileKey"
+          value="0" />
+        <key
+          name="WaterCooledChillerProfileKey"
+          value="0" />
+        <key
+          name="DefreezerProfileKey"
+          value="0" />
+        <key
+          name="Roll-In-FreezerProfileKey"
+          value="0" />
+        <key
+          name="undercounterProfileKey"
+          value="0" />
+        <key
+          name="OnPremisesDryerProfileKey"
+          value="1" />
+        <key
+          name="OnPremisesWasherProfileKey"
+          value="0" />
+        <key
+          name="WasherExtractorProfileKey"
+          value="0" />
+      </profile>
+      <profile
+        id="{897E0D6D-31D0-4DA2-8684-27ACD96A7330}"
+        name="Smartlifeappliances-Category-Profile"
+        presets="washingmachine-profilecard-persona|100||">
+        <key
+          name="AC"
+          value="0" />
+        <key
+          name="Referigerator"
+          value="0" />
+        <key
+          name="WashingMachine"
+          value="1" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d4a62ee-bf47-4fbe-b35a-55631cced460"
+      Hint: Features
+      Value: |
+        <p itemprop="description" style="color: #333333; background: #ffffff none repeat scroll 0% 0%; margin-bottom: 0px; padding: 0px; border: 0px none;"><strong>Features</strong></p>
+        <ul class="list" style="color: #333333; background: #ffffff none repeat scroll 0% 0%; margin: 25px 0px 0px 2rem; padding: 0px; border: 0px none;">
+            <li class="list__item" style="background: transparent none repeat scroll 0% 0%; margin: 0px; padding: 0px 5px 5px; border: 0px none;">Contoured front door is elevated and angled by an extra 6 degree tilt for improved ease of loading and unloading</li>
+            <li class="list__item" style="background: transparent none repeat scroll 0% 0%; margin: 0px; padding: 5px; border: 0px none;">Toss the shirt in the dryer, turn on QuickSteam and in just 10 minutes your shirt is in tip-top shape</li>
+            <li class="list__item" style="background: transparent none repeat scroll 0% 0%; margin: 0px; padding: 5px; border: 0px none;">With 9.0 cu. ft. of mega capacity, now you can fit a king size comforter and full set of bedding in a single load</li>
+            <li class="list__item" style="background: transparent none repeat scroll 0% 0%; margin: 0px; padding: 5px; border: 0px none;">Monitor your laundry remotely with an ingenious smartphone app</li>
+            <li class="list__item" style="background: transparent none repeat scroll 0% 0%; margin: 0px; padding: 5px; border: 0px none;">With the SteamSanitary Cycle, you can safely sanitize items marked as non-washable</li>
+            <li class="list__item" style="background: transparent none repeat scroll 0% 0%; margin: 0px; padding: 5px; border: 0px none;">Our Sensor Dry system measures the moisture levels during the cycle and automatically adjusts the drying time to help ensure you get dry laundry every time</li>
+            <li class="list__item" style="background: transparent none repeat scroll 0% 0%; margin: 0px; padding: 5px; border: 0px none;">The SmartDiagnosis feature helps the service center diagnose problems over the phone, or with a simple app on your smart phone, helping you minimize costly, inconvenient service calls</li>
+            <li class="list__item" style="background: transparent none repeat scroll 0% 0%; margin: 0px; padding: 5px; border: 0px none;">The SteamFresh Cycle refreshes, and reduces wrinkles in up to five garments at a time with one 20-minute dryer cycle</li>
+            <li class="list__item" style="background: transparent none repeat scroll 0% 0%; margin: 0px; padding: 5px; border: 0px none;">The NeveRust Stainless Steel Drum is built to keep drying your clothes more efficiently without showing wear and tear</li>
+            <li class="list__item" style="background: transparent none repeat scroll 0% 0%; margin: 0px; padding: 5px; border: 0px none;">Stay efficient The FlowSense Duct Clogging Indicator will tell you when it&rsquo;s time to clean the ducts out</li>
+            <li class="list__item" style="background: transparent none repeat scroll 0% 0%; margin: 0px; padding: 5px; border: 0px none;">The ReduceStatic Option virtually eliminates static cling</li>
+            <li class="list__item" style="background: transparent none repeat scroll 0% 0%; margin: 0px; padding: 5px; border: 0px none;">The EasyIron Option lightly moistens clothes to make ironing easier and more efficient</li>
+            <li class="list__item" style="background: transparent none repeat scroll 0% 0%; margin: 0px; padding: 5px; border: 0px none;">With features like our Dual LED Display indicators and intuitive Dial-A-Cycle controls, you&rsquo;ll find the right setting every time</li>
+        </ul>
+        <br />
+        <a href="-/media/BB40E097163544D68B149F5AFE5B3C2C.ashx">Download Brochure</a>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: OnPrem Dryer
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170316T090737Z
+    - ID: "398aaabe-2e1a-4e7c-a4a6-0f7afc544d93"
+      Hint: Description
+      Value: |
+        <span style="text-align: justify; color: #777777;">SmartLife OnPrem Dryers provides comfortable 360 degree airflow with improved temperature distribution. It can maintain comfort even if air discharge speed is lower. Airflow distribution create uniform comfort throughout the space, even in spaces with high ceilings, a comfortable airflow is carried down to the floor level. Because air flows out from corner outlets, comfort spreads more easily. To prevent dirt sticking with external panels, they have been coated with surface treatment.</span>
+    - ID: "40d24aa7-4aaf-48c1-86bb-b0f00c3dc525"
+      Hint: Discounted Price
+      Value: $1529.00
+    - ID: "71d65caf-388f-4a54-b386-5c0cafc6cde1"
+      Hint: Shipping
+      Value: Free Shipping
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{2DC2799A-F50C-4C0A-BAAD-582FBC972FFA}"></image>
+    - ID: "9d615e6c-6493-4a5a-9f15-27adf03ea198"
+      Hint: Price
+      Value: $1799.00
+    - ID: "a7a9e7db-2d07-4600-ba59-19b75984d982"
+      Hint: Specification
+      Value: |
+        <div class="specs_title" style="color: #333333; background: #ffffff; margin: 0px 0px 6px; padding: 0px; border: 0px;">
+        <h4 style="background: transparent; margin: 0px; padding: 0px; border: 0px;">Dimensions</h4>
+        </div>
+        <table width="100%" border="0" class="tablePod tableSplit" role="presentation" style="color: #333333; background: #ffffff; margin: 0px 0px 30px; padding: 0px; border-spacing: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-top-color: #cccccc; border-right-style: initial; border-right-color: initial; border-bottom-style: initial; border-bottom-color: initial; border-left-style: initial; border-left-color: initial;">
+            <tbody style="background: transparent; margin: 0px; padding: 0px; border: 0px;">
+                <tr style="background: transparent; margin: 0px; padding: 0px; border-width: 0px 0px 1px; border-top-style: initial; border-top-color: initial; border-right-style: initial; border-right-color: initial; border-bottom-style: solid; border-bottom-color: #cccccc; border-left-style: initial; border-left-color: initial;">
+                    <td class="even" style="background: #eeeeee; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Depth With Door Open 90 Degrees (In)</div>
+                    </td>
+                    <td style="background: transparent; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">56</div>
+                    </td>
+                    <td class="even" style="background: #eeeeee; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Product Depth (in.)</div>
+                    </td>
+                    <td style="background: transparent; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">33.38</div>
+                    </td>
+                </tr>
+                <tr style="background: transparent; margin: 0px; padding: 0px; border-width: 0px 0px 1px; border-top-style: initial; border-top-color: initial; border-right-style: initial; border-right-color: initial; border-bottom-style: solid; border-bottom-color: #cccccc; border-left-style: initial; border-left-color: initial;">
+                    <td class="even" style="background: #eeeeee; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Door Opening Height (In.)</div>
+                    </td>
+                    <td style="background: transparent; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">16.06</div>
+                    </td>
+                    <td class="even" style="background: #eeeeee; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Product Height (in.)</div>
+                    </td>
+                    <td style="background: transparent; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">40.89</div>
+                    </td>
+                </tr>
+                <tr style="background: transparent; margin: 0px; padding: 0px; border-width: 0px 0px 1px; border-top-style: initial; border-top-color: initial; border-right-style: initial; border-right-color: initial; border-bottom-style: solid; border-bottom-color: #cccccc; border-left-style: initial; border-left-color: initial;">
+                    <td class="even" style="background: #eeeeee; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Door Opening Width (In.)</div>
+                    </td>
+                    <td style="background: transparent; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">16.06</div>
+                    </td>
+                    <td class="even" style="background: #eeeeee; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Product Width (in.)</div>
+                    </td>
+                    <td style="background: transparent; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">29</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="specs_title" style="color: #333333; background: #ffffff; margin: 0px 0px 6px; padding: 0px; border: 0px;">
+        <h4 style="background: transparent; margin: 0px; padding: 0px; border: 0px;">Details</h4>
+        </div>
+        <table width="100%" border="0" class="tablePod tableSplit" role="presentation" style="color: #333333; background: #ffffff; margin: 0px 0px 30px; padding: 0px; border-spacing: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-top-color: #cccccc; border-right-style: initial; border-right-color: initial; border-bottom-style: initial; border-bottom-color: initial; border-left-style: initial; border-left-color: initial;">
+            <tbody style="background: transparent; margin: 0px; padding: 0px; border: 0px;">
+                <tr style="background: transparent; margin: 0px; padding: 0px; border-width: 0px 0px 1px; border-top-style: initial; border-top-color: initial; border-right-style: initial; border-right-color: initial; border-bottom-style: solid; border-bottom-color: #cccccc; border-left-style: initial; border-left-color: initial;">
+                    <td class="even" style="background: #eeeeee; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Amperage (amps)</div>
+                    </td>
+                    <td style="background: transparent; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">30</div>
+                    </td>
+                    <td class="even" style="background: #eeeeee; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Lint Filter Location</div>
+                    </td>
+                    <td style="background: transparent; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Front</div>
+                    </td>
+                </tr>
+                <tr style="background: transparent; margin: 0px; padding: 0px; border-width: 0px 0px 1px; border-top-style: initial; border-top-color: initial; border-right-style: initial; border-right-color: initial; border-bottom-style: solid; border-bottom-color: #cccccc; border-left-style: initial; border-left-color: initial;">
+                    <td class="even" style="background: #eeeeee; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Appliance Type</div>
+                    </td>
+                    <td style="background: transparent; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Electric Dryer</div>
+                    </td>
+                    <td class="even" style="background: #eeeeee; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Matching Washer Type</div>
+                    </td>
+                    <td style="background: transparent; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Front Load</div>
+                    </td>
+                </tr>
+                <tr style="background: transparent; margin: 0px; padding: 0px; border-width: 0px 0px 1px; border-top-style: initial; border-top-color: initial; border-right-style: initial; border-right-color: initial; border-bottom-style: solid; border-bottom-color: #cccccc; border-left-style: initial; border-left-color: initial;">
+                    <td class="even" style="background: #eeeeee; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Capacity - Dryer (cu. ft.)</div>
+                    </td>
+                    <td style="background: transparent; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">9.0</div>
+                    </td>
+                    <td class="even" style="background: #eeeeee; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Number of Drying Cycles</div>
+                    </td>
+                    <td style="background: transparent; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">14</div>
+                    </td>
+                </tr>
+                <tr style="background: transparent; margin: 0px; padding: 0px; border-width: 0px 0px 1px; border-top-style: initial; border-top-color: initial; border-right-style: initial; border-right-color: initial; border-bottom-style: solid; border-bottom-color: #cccccc; border-left-style: initial; border-left-color: initial;">
+                    <td class="even" style="background: #eeeeee; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Color/Finish</div>
+                    </td>
+                    <td style="background: transparent; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Graphite Steel</div>
+                    </td>
+                    <td class="even" style="background: #eeeeee; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Number of Drying Temperatures</div>
+                    </td>
+                    <td style="background: transparent; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">5</div>
+                    </td>
+                </tr>
+                <tr style="background: transparent; margin: 0px; padding: 0px; border-width: 0px 0px 1px; border-top-style: initial; border-top-color: initial; border-right-style: initial; border-right-color: initial; border-bottom-style: solid; border-bottom-color: #cccccc; border-left-style: initial; border-left-color: initial;">
+                    <td class="even" style="background: #eeeeee; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Color/Finish Family</div>
+                    </td>
+                    <td style="background: transparent; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;"><span itemprop="color" style="background: transparent; margin: 0px; padding: 0px; border: 0px;">Stainless Look</span></div>
+                    </td>
+                    <td class="even" style="background: #eeeeee; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Pedestal Model#</div>
+                    </td>
+                    <td style="background: transparent; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">WDP5V</div>
+                    </td>
+                </tr>
+                <tr style="background: transparent; margin: 0px; padding: 0px; border-width: 0px 0px 1px; border-top-style: initial; border-top-color: initial; border-right-style: initial; border-right-color: initial; border-bottom-style: solid; border-bottom-color: #cccccc; border-left-style: initial; border-left-color: initial;">
+                    <td class="even" style="background: #eeeeee; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Control Type</div>
+                    </td>
+                    <td style="background: transparent; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">LED</div>
+                    </td>
+                    <td class="even" style="background: #eeeeee; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Product Weight (lb.)</div>
+                    </td>
+                    <td style="background: transparent; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;"><span itemprop="weight" style="background: transparent; margin: 0px; padding: 0px; border: 0px;">157.4lb</span></div>
+                    </td>
+                </tr>
+                <tr style="background: transparent; margin: 0px; padding: 0px; border-width: 0px 0px 1px; border-top-style: initial; border-top-color: initial; border-right-style: initial; border-right-color: initial; border-bottom-style: solid; border-bottom-color: #cccccc; border-left-style: initial; border-left-color: initial;">
+                    <td class="even" style="background: #eeeeee; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Door Shape</div>
+                    </td>
+                    <td style="background: transparent; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Square Door</div>
+                    </td>
+                    <td class="even" style="background: #eeeeee; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Returnable</div>
+                    </td>
+                    <td style="background: transparent; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Non-Returnable</div>
+                    </td>
+                </tr>
+                <tr style="background: transparent; margin: 0px; padding: 0px; border-width: 0px 0px 1px; border-top-style: initial; border-top-color: initial; border-right-style: initial; border-right-color: initial; border-bottom-style: solid; border-bottom-color: #cccccc; border-left-style: initial; border-left-color: initial;">
+                    <td class="even" style="background: #eeeeee; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Door Style</div>
+                    </td>
+                    <td style="background: transparent; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Reversible</div>
+                    </td>
+                    <td class="even" style="background: #eeeeee; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Smart Home</div>
+                    </td>
+                    <td style="background: transparent; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Smart Home Enabled</div>
+                    </td>
+                </tr>
+                <tr style="background: transparent; margin: 0px; padding: 0px; border-width: 0px 0px 1px; border-top-style: initial; border-top-color: initial; border-right-style: initial; border-right-color: initial; border-bottom-style: solid; border-bottom-color: #cccccc; border-left-style: initial; border-left-color: initial;">
+                    <td class="even" style="background: #eeeeee; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Dry Cycles</div>
+                    </td>
+                    <td style="background: transparent; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Auto Dry,Cool Down,Cotton,Damp Dry,Delicates,Extended Tumble,Extra Dry,Heavy Duty,Permanent Press,Speed Dry,Wrinkle Free</div>
+                    </td>
+                    <td class="even" style="background: #eeeeee; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Stackable</div>
+                    </td>
+                    <td style="background: transparent; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">No</div>
+                    </td>
+                </tr>
+                <tr style="background: transparent; margin: 0px; padding: 0px; border-width: 0px 0px 1px; border-top-style: initial; border-top-color: initial; border-right-style: initial; border-right-color: initial; border-bottom-style: solid; border-bottom-color: #cccccc; border-left-style: initial; border-left-color: initial;">
+                    <td class="even" style="background: #eeeeee; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Dryer Drum Material</div>
+                    </td>
+                    <td style="background: transparent; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Stainless Steel</div>
+                    </td>
+                    <td class="even" style="background: #eeeeee; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Stacking Kit Model#</div>
+                    </td>
+                    <td style="background: transparent; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">None</div>
+                    </td>
+                </tr>
+                <tr style="background: transparent; margin: 0px; padding: 0px; border-width: 0px 0px 1px; border-top-style: initial; border-top-color: initial; border-right-style: initial; border-right-color: initial; border-bottom-style: solid; border-bottom-color: #cccccc; border-left-style: initial; border-left-color: initial;">
+                    <td class="even" style="background: #eeeeee; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Dryer Features</div>
+                    </td>
+                    <td style="background: transparent; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Automatic Temperature Control,Cycle Time Remaining Display,Damp Dry,Delay Start,Door Window,End-Of-Cycle Signal,Four-Way Venting,Front Control,Interior Light,Lint Filter,Moisture Sensor,Sensor Dry,Steam Function,Timed Dry</div>
+                    </td>
+                    <td class="even" style="background: #eeeeee; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Steam Function</div>
+                    </td>
+                    <td style="background: transparent; margin: 0px; padding: 0px; border-top: 0px; border-right: none; border-bottom: 0px; border-left: 0px; text-align: left; width: 25%;">
+                    <div style="background: transparent; margin: 0px; padding: 10px; border: 0px;">Yes</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: 9.0 Cu. Ft. Mega Capacity QuadraSteam Electric Dryer With QuickLoad Door
+    - ID: "bb7a38c0-323c-4f81-8eb9-288abf7c4638"
+      Hint: MetaDescription
+      Value: OnPrem Dryer
+    - ID: "c236fb11-ab2f-42a7-92a7-09a9258e2637"
+      Hint: Product Title
+      Value: Single Front Control Electric Dryers
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: SmartLife OnPrem Dryer
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: OnPrem Dryer
+    - ID: "de1430c5-291b-40c2-ad2d-709efbb7360a"
+      Hint: Short Description
+      Value: "Light commercial on-premises laundry dryers offer extra-large drying capacity despite their compact size.&nbsp;"
+    - ID: "fdc46723-8fd1-44c0-9938-c7bc00a81768"
+      Hint: Reviews
+      Value: |
+        <div class="review-clip" style="color: #4e4e4e; background-color: #ffffff;"><strong>Evan G</strong> on 22/03/2017 (11:20hrs)
+        <p style="margin-bottom: 10px;"><span style="background-color: #ffffff; color: #666666;">I've had this dryer for exactly 1 year and it is the best dryer I've ever had. It dries clothes evenly and quickly enough that it is done by the time the load in the washer is done. I love the steam fresh setting for getting the wrinkles out of a single item of clothing. And the air dry feature works great for drying my rubber-backed bathmats. And of course, it holds so much!</span>&nbsp;...&nbsp;<a href="http://sitecorehabitat/Products/Product-2#" style="color: #c52d2f; background: transparent;">&raquo;</a></p>
+        </div>
+        <div class="review-clip" style="color: #4e4e4e; background-color: #ffffff;"><strong>Michelle</strong>&nbsp;on 11/09/2016 (19:10hrs)
+        <p style="margin-bottom: 10px;"><span style="background-color: #ffffff; color: #666666;">This dryer is huge! A lot of clothes can be dried at once and very convenient two option door opener. It looks very good with the stainless steel and black combination.</span>&nbsp;...&nbsp;<a href="http://sitecorehabitat/Products/Product-2#" style="color: #c52d2f; background: transparent;">&raquo;</a></p>
+        </div>
